@@ -1,0 +1,2454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C25080D99589C219478F6C /* Pods_SquadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCFAAB102F74B33870FE443 /* Pods_SquadTests.framework */; };
+		680A0E381D6555A300F996B6 /* TokenProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A0E371D6555A300F996B6 /* TokenProductList.swift */; };
+		680A0E3A1D65573E00F996B6 /* TokenProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A0E391D65573E00F996B6 /* TokenProductListCell.swift */; };
+		6811DFBB1D485A1400FE622A /* MapHolderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811DFBA1D485A1400FE622A /* MapHolderVC.swift */; };
+		6813911E1D6D37CB0063A4E1 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6813911D1D6D37CB0063A4E1 /* ForgotPasswordVC.swift */; };
+		682DFB561D845333008F0674 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 682DFB551D845333008F0674 /* GoogleService-Info.plist */; };
+		682DFB581D845A5C008F0674 /* Accounts in Resources */ = {isa = PBXBuildFile; fileRef = 682DFB571D845A5C008F0674 /* Accounts */; };
+		683802CE1D52D11A0022CB77 /* SSCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683802CD1D52D11A0022CB77 /* SSCell.swift */; };
+		683802D11D52DDCE0022CB77 /* CareerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683802D01D52DDCE0022CB77 /* CareerVC.swift */; };
+		683B7F9F1D5D6D69003383BE /* ChatContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B7F9E1D5D6D69003383BE /* ChatContainerVC.swift */; };
+		683B7FA21D5D6EE9003383BE /* PremiumRequiredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B7FA11D5D6EE9003383BE /* PremiumRequiredVC.swift */; };
+		6866E6BD1D6D2F18006458D4 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866E6BC1D6D2F18006458D4 /* ChangePasswordVC.swift */; };
+		686D7F381D3152F9007E7C95 /* AnnouncementCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D7F371D3152F9007E7C95 /* AnnouncementCVCell.swift */; };
+		686D7F3A1D31576D007E7C95 /* NewAnnouncementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D7F391D31576D007E7C95 /* NewAnnouncementVC.swift */; };
+		686D7F3C1D35D5B9007E7C95 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D7F3B1D35D5B9007E7C95 /* SettingsTVC.swift */; };
+		687106C71D4AF26F00554DB0 /* StartNewSeasonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687106C61D4AF26F00554DB0 /* StartNewSeasonVC.swift */; };
+		6876A0331D68B24000A64111 /* PremiumPurchaseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6876A0321D68B24000A64111 /* PremiumPurchaseListCell.swift */; };
+		688CC4C91D07BDC1008810AF /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 688CC4C81D07BDC1008810AF /* background.jpeg */; };
+		68A71ECE1D314FF200D75F99 /* AnnouncementsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A71ECD1D314FF200D75F99 /* AnnouncementsCVC.swift */; };
+		68A919C71D3872FC008F734B /* ManageAdminsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A919C61D3872FC008F734B /* ManageAdminsVC.swift */; };
+		68A919C91D387363008F734B /* ManageAdminsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A919C81D387363008F734B /* ManageAdminsList.swift */; };
+		68A919CF1D3C7517008F734B /* TeamProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A919CE1D3C7517008F734B /* TeamProfileVC.swift */; };
+		68B15DD21D41AF3600F38BE4 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B15DD11D41AF3600F38BE4 /* OnBoardingVC.swift */; };
+		68B5BFE71D3F11CE000E997B /* ManageRosterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B5BFE61D3F11CE000E997B /* ManageRosterVC.swift */; };
+		68B5BFE91D3F1301000E997B /* ManageRosterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B5BFE81D3F1301000E997B /* ManageRosterList.swift */; };
+		68BC99B21D61614F0097E169 /* TeamWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC99B11D61614F0097E169 /* TeamWalletVC.swift */; };
+		68BC99B41D6162050097E169 /* WalletActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC99B31D6162050097E169 /* WalletActivityList.swift */; };
+		68BC99B61D63F3080097E169 /* BuyTokenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BC99B51D63F3080097E169 /* BuyTokenVC.swift */; };
+		68BC99B81D6406E30097E169 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BC99B71D6406E30097E169 /* StoreKit.framework */; };
+		68EEC7991D68ADA30040D1A2 /* PremiumPurchaseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EEC7981D68ADA30040D1A2 /* PremiumPurchaseList.swift */; };
+		68FE1B431D542A6F0054A4FD /* CareerLeadersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE1B421D542A6F0054A4FD /* CareerLeadersTVC.swift */; };
+		8470C45D1BFC18BF005A69E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470C45C1BFC18BF005A69E5 /* AppDelegate.swift */; };
+		8470C4621BFC18BF005A69E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8470C4601BFC18BF005A69E5 /* Main.storyboard */; };
+		8470C4641BFC18C0005A69E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8470C4631BFC18C0005A69E5 /* Assets.xcassets */; };
+		8470C4671BFC18C0005A69E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8470C4651BFC18C0005A69E5 /* LaunchScreen.storyboard */; };
+		8470C4721BFC18C0005A69E5 /* SquadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470C4711BFC18C0005A69E5 /* SquadTests.swift */; };
+		8470C47D1BFC18C0005A69E5 /* SquadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470C47C1BFC18C0005A69E5 /* SquadUITests.swift */; };
+		88A9D4A197F2CFFA32F800D7 /* Pods_Squad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ACD8A41387DF02D936C48A /* Pods_Squad.framework */; };
+		A402F6601C49B444000D9E0D /* avenir-next-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A402F65F1C49B444000D9E0D /* avenir-next-thin.ttf */; };
+		A402F6621C49B44F000D9E0D /* avenir-next-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A402F6611C49B44F000D9E0D /* avenir-next-regular.ttf */; };
+		A407BA601D729E8100A6A5AA /* bg-white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A407BA5F1D729E8100A6A5AA /* bg-white.pdf */; };
+		A407BA621D729EE300A6A5AA /* logo-dark.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A407BA611D729EE300A6A5AA /* logo-dark.pdf */; };
+		A407BA641D729FB300A6A5AA /* logo-white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A407BA631D729FB300A6A5AA /* logo-white.pdf */; };
+		A407BA661D74074D00A6A5AA /* sznpass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A407BA651D74074D00A6A5AA /* sznpass.pdf */; };
+		A40AACBC1C5C11AE005858EF /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A40AACBB1C5C085A005858EF /* DS-DIGI.TTF */; };
+		A40B18381D1A349300968C13 /* default.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A40B18371D1A349300968C13 /* default.pdf */; };
+		A40E20531C94045A0006EF1C /* DharmaGothicE_Bold_I.otf in Resources */ = {isa = PBXBuildFile; fileRef = A40E20511C94045A0006EF1C /* DharmaGothicE_Bold_I.otf */; };
+		A40E20541C94045A0006EF1C /* DharmaGothicE_Heavy_I.otf in Resources */ = {isa = PBXBuildFile; fileRef = A40E20521C94045A0006EF1C /* DharmaGothicE_Heavy_I.otf */; };
+		A40E20581C97A7480006EF1C /* DharmaGothicE_Light_I.otf in Resources */ = {isa = PBXBuildFile; fileRef = A40E20551C97A7470006EF1C /* DharmaGothicE_Light_I.otf */; };
+		A40E20591C97A7480006EF1C /* DharmaGothicE_Light_R.otf in Resources */ = {isa = PBXBuildFile; fileRef = A40E20561C97A7470006EF1C /* DharmaGothicE_Light_R.otf */; };
+		A40E205A1C97A7480006EF1C /* DharmaGothicE_Regular_I.otf in Resources */ = {isa = PBXBuildFile; fileRef = A40E20571C97A7470006EF1C /* DharmaGothicE_Regular_I.otf */; };
+		A414A3DF1D4F1AF0007E157A /* ss-baseball.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A414A3D91D4F1AF0007E157A /* ss-baseball.pdf */; };
+		A414A3E01D4F1AF0007E157A /* ss-basketball.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A414A3DA1D4F1AF0007E157A /* ss-basketball.pdf */; };
+		A414A3E11D4F1AF0007E157A /* ss-football.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A414A3DB1D4F1AF0007E157A /* ss-football.pdf */; };
+		A414A3E21D4F1AF0007E157A /* ss-hockey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A414A3DC1D4F1AF0007E157A /* ss-hockey.pdf */; };
+		A414A3E31D4F1AF0007E157A /* ss-lacrosse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A414A3DD1D4F1AF0007E157A /* ss-lacrosse.pdf */; };
+		A414A3E41D4F1AF0007E157A /* ss-soccer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A414A3DE1D4F1AF0007E157A /* ss-soccer.pdf */; };
+		A41532401C0FEDC000750BB1 /* tb-home-active.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41532361C0FEDC000750BB1 /* tb-home-active.pdf */; };
+		A41532411C0FEDC000750BB1 /* tb-home-inactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41532371C0FEDC000750BB1 /* tb-home-inactive.pdf */; };
+		A41532421C0FEDC000750BB1 /* tb-inbox-active.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41532381C0FEDC000750BB1 /* tb-inbox-active.pdf */; };
+		A41532431C0FEDC000750BB1 /* tb-inbox-inactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41532391C0FEDC000750BB1 /* tb-inbox-inactive.pdf */; };
+		A41532441C0FEDC000750BB1 /* tb-roster-active.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A415323A1C0FEDC000750BB1 /* tb-roster-active.pdf */; };
+		A41532451C0FEDC000750BB1 /* tb-roster-inactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A415323B1C0FEDC000750BB1 /* tb-roster-inactive.pdf */; };
+		A41532461C0FEDC000750BB1 /* tb-sched-active.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A415323C1C0FEDC000750BB1 /* tb-sched-active.pdf */; };
+		A41532471C0FEDC000750BB1 /* tb-sched-inactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A415323D1C0FEDC000750BB1 /* tb-sched-inactive.pdf */; };
+		A41532481C0FEDC000750BB1 /* tb-stats-active.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A415323E1C0FEDC000750BB1 /* tb-stats-active.pdf */; };
+		A41532491C0FEDC000750BB1 /* tb-stats-inactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A415323F1C0FEDC000750BB1 /* tb-stats-inactive.pdf */; };
+		A41A562B1C672EA30000904E /* Trade Gothic LT Bold Condensed No. 20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A41A562A1C672EA30000904E /* Trade Gothic LT Bold Condensed No. 20.ttf */; };
+		A41FD5681D8D1DD900B75540 /* Diamante-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD5671D8D1DD900B75540 /* Diamante-DemiBold.otf */; };
+		A41FD56A1D8DDE4B00B75540 /* default-team-wide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD5691D8DDE4B00B75540 /* default-team-wide.pdf */; };
+		A41FD56C1D8E3E0900B75540 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41FD56B1D8E3E0900B75540 /* SettingsViewController.swift */; };
+		A41FD56F1D8E68FD00B75540 /* switch-off.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD56D1D8E68FD00B75540 /* switch-off.pdf */; };
+		A41FD5701D8E68FD00B75540 /* switch-on.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD56E1D8E68FD00B75540 /* switch-on.pdf */; };
+		A41FD5721D8F1A1500B75540 /* default-scheduleteam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD5711D8F1A1500B75540 /* default-scheduleteam.pdf */; };
+		A41FD5741D8F4EA700B75540 /* settings-sliders.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD5731D8F4EA700B75540 /* settings-sliders.pdf */; };
+		A41FD5761D8F531B00B75540 /* sznpassbg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A41FD5751D8F531B00B75540 /* sznpassbg.pdf */; };
+		A41FD5781D8F5D5700B75540 /* HomeTVCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41FD5771D8F5D5700B75540 /* HomeTVCell1.swift */; };
+		A4251AD71D77EE1F0015EA26 /* default-team.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4251AD51D77EE1F0015EA26 /* default-team.pdf */; };
+		A42E414B1C3E44E500E7E88D /* SelectSportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E414A1C3E44E500E7E88D /* SelectSportCell.swift */; };
+		A433B35A1D6E816A008B3295 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A433B3581D6E816A008B3295 /* Montserrat-Regular.otf */; };
+		A433B35B1D6E816A008B3295 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A433B3591D6E816A008B3295 /* Montserrat-SemiBold.otf */; };
+		A439DC6B1C5C4FA20078EC65 /* SeasonLeadersTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439DC6A1C5C4FA20078EC65 /* SeasonLeadersTVCell.swift */; };
+		A439DC6D1C5ED3F30078EC65 /* RollCallTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439DC6C1C5ED3F20078EC65 /* RollCallTVCell.swift */; };
+		A439DC741C5EEAD40078EC65 /* rollcall-idk.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A439DC6E1C5EEAD40078EC65 /* rollcall-idk.pdf */; };
+		A439DC771C5EEAD40078EC65 /* rollcall-injured.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A439DC711C5EEAD40078EC65 /* rollcall-injured.pdf */; };
+		A439DC781C5EEAD40078EC65 /* rollcall-late.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A439DC721C5EEAD40078EC65 /* rollcall-late.pdf */; };
+		A439DC791C5EEAD40078EC65 /* rollcall-vacation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A439DC731C5EEAD40078EC65 /* rollcall-vacation.pdf */; };
+		A439DC7C1C5F101A0078EC65 /* rollcall-imin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A439DC7A1C5F101A0078EC65 /* rollcall-imin.pdf */; };
+		A439DC7D1C5F101A0078EC65 /* rollcall-imout.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A439DC7B1C5F101A0078EC65 /* rollcall-imout.pdf */; };
+		A45241741C5838FF00863226 /* SelectSportTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45241731C5838FF00863226 /* SelectSportTVC.swift */; };
+		A455560A1D88F348007AB5D3 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A45556091D88F348007AB5D3 /* 1.pdf */; };
+		A45F91851D07D96900D23E17 /* bg-dark.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A45F91841D07D96900D23E17 /* bg-dark.pdf */; };
+		A45F91871D07DB5D00D23E17 /* HudsonNY.otf in Resources */ = {isa = PBXBuildFile; fileRef = A45F91861D07DB5D00D23E17 /* HudsonNY.otf */; };
+		A46475CD1C1ACCCA0072A969 /* SquadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46475CC1C1ACCCA0072A969 /* SquadCollectionViewCell.swift */; };
+		A46476451C27E2CD0072A969 /* tb-chat-active.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A46476431C27E2CD0072A969 /* tb-chat-active.pdf */; };
+		A46476461C27E2CD0072A969 /* tb-chat-inactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A46476441C27E2CD0072A969 /* tb-chat-inactive.pdf */; };
+		A46476481C2925080072A969 /* GameStatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46476471C2925080072A969 /* GameStatsVC.swift */; };
+		A46476A81C2A31260072A969 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46476A71C2A31260072A969 /* FXBlurView.m */; };
+		A46476AC1C2F8FBA0072A969 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46476AB1C2F8FBA0072A969 /* ProfileVC.swift */; };
+		A46476AE1C2FA20E0072A969 /* BackArrow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A46476AD1C2FA20E0072A969 /* BackArrow.pdf */; };
+		A466D4001C60124000F5296C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466D3FF1C60124000F5296C /* TextField.swift */; };
+		A467DA871BFDB2B600467DF2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A467DA861BFDB2B600467DF2 /* SignUpViewController.swift */; };
+		A46B26371CDEFDDC00D74800 /* Futura LT Extra Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A46B26361CDEFDDC00D74800 /* Futura LT Extra Bold.ttf */; };
+		A47725C41C4398F600ACC507 /* CreateEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47725C31C4398F600ACC507 /* CreateEventVC.swift */; };
+		A47725C61C45CF7E00ACC507 /* GameStatTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47725C51C45CF7E00ACC507 /* GameStatTVC.swift */; };
+		A47725C81C45FA6F00ACC507 /* SznVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47725C71C45FA6F00ACC507 /* SznVC.swift */; };
+		A47EA43A1C770D4F00C3B71B /* more-blk.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A47EA4391C770D4F00C3B71B /* more-blk.pdf */; };
+		A47F29D21D505AB0005CEE92 /* triangle-left.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A47F29D01D505AB0005CEE92 /* triangle-left.pdf */; };
+		A47F29D31D505AB0005CEE92 /* triangle-right.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A47F29D11D505AB0005CEE92 /* triangle-right.pdf */; };
+		A47F29D51D506AD8005CEE92 /* Bars.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A47F29D41D506AD8005CEE92 /* Bars.pdf */; };
+		A4889DFA1D13ADF10057C1F7 /* fblogo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4889DF91D13ADF10057C1F7 /* fblogo.pdf */; };
+		A489005C1C4259100090595E /* RollCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A489005B1C4259100090595E /* RollCallVC.swift */; };
+		A489ABDE1C3378C10096780F /* BackArrow-white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A489ABDD1C3378C10096780F /* BackArrow-white.pdf */; };
+		A489ABE01C339A540096780F /* triangle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A489ABDF1C339A540096780F /* triangle.pdf */; };
+		A489ABFB1C37D82A0096780F /* stepperDown-Grn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A489ABF91C37D82A0096780F /* stepperDown-Grn.pdf */; };
+		A489ABFC1C37D82A0096780F /* stepperUp-Grn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A489ABFA1C37D82A0096780F /* stepperUp-Grn.pdf */; };
+		A49423DD1D91FD6500B00813 /* s-icon-blk.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A49423DB1D91FD6500B00813 /* s-icon-blk.pdf */; };
+		A49423DE1D91FD6500B00813 /* s-icon-white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A49423DC1D91FD6500B00813 /* s-icon-white.pdf */; };
+		A49423E01D920F0900B00813 /* splash.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A49423DF1D920F0900B00813 /* splash.pdf */; };
+		A4A653051C3E740800F1CADD /* RosterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A653041C3E740800F1CADD /* RosterCollectionCell.swift */; };
+		A4A653661C3F282800F1CADD /* stepperDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4A653641C3F282800F1CADD /* stepperDown.pdf */; };
+		A4A653671C3F282800F1CADD /* stepperUp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4A653651C3F282800F1CADD /* stepperUp.pdf */; };
+		A4A6536F1C41114200F1CADD /* sched-bg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4A6536E1C41114200F1CADD /* sched-bg.pdf */; };
+		A4AD12551CB4BBF10024EE82 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD12541CB4BBF10024EE82 /* OnboardViewController.swift */; };
+		A4B2F5891C5B421500E490C5 /* SeasonStatMenuCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B2F5881C5B421500E490C5 /* SeasonStatMenuCollectionCell.swift */; };
+		A4B47EDA1D8136DB00101790 /* default-squad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4B47ED91D8136DB00101790 /* default-squad.pdf */; };
+		A4B47EDE1D813EF800101790 /* SEIZETHEGAME.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4B47EDD1D813EF800101790 /* SEIZETHEGAME.pdf */; };
+		A4CA18111C6DDA0F007773DB /* DGRunkeeperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA18101C6DDA0F007773DB /* DGRunkeeperSwitch.swift */; };
+		A4CA182C1C71931E007773DB /* FoldScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA182B1C71931E007773DB /* FoldScheduleVC.swift */; };
+		A4CA182E1C71932F007773DB /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA182D1C71932F007773DB /* DemoCell.swift */; };
+		A4CA18381C75C34A007773DB /* more.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4CA18371C75C34A007773DB /* more.pdf */; };
+		A4D013DD1D611648002920AF /* createsquad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D013DB1D611648002920AF /* createsquad.pdf */; };
+		A4D013E01D61166A002920AF /* joinsquad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D013DF1D61166A002920AF /* joinsquad.pdf */; };
+		A4D13D831D84816700E7167E /* blur-huddle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D13D821D84816700E7167E /* blur-huddle.pdf */; };
+		A4D13D851D848A8100E7167E /* camera_btn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D13D841D848A8100E7167E /* camera_btn.pdf */; };
+		A4D13D871D84CB4900E7167E /* PillGothic300mg-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4D13D861D84CB4900E7167E /* PillGothic300mg-Regular.ttf */; };
+		A4D13D891D84CB5F00E7167E /* PillGothic300mg-BoldObq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4D13D881D84CB5F00E7167E /* PillGothic300mg-BoldObq.ttf */; };
+		A4D13D911D863C3B00E7167E /* seize.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D13D901D863C3B00E7167E /* seize.pdf */; };
+		A4D5222D1D5998C10003C49F /* settings.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4D5222C1D5998C10003C49F /* settings.pdf */; };
+		A4D5222F1D599ABB0003C49F /* SquadHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5222E1D599ABB0003C49F /* SquadHomeViewController.swift */; };
+		A4DBC8791D49D95E00245984 /* squad-loading.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4DBC8781D49D95E00245984 /* squad-loading.pdf */; };
+		A4E184351C57836300D6B2CF /* CreateSkwadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E184341C57836300D6B2CF /* CreateSkwadTableViewController.swift */; };
+		A4E5413F1C12A3B50048692C /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5413E1C12A3B50048692C /* CreateProfileVC.swift */; };
+		A4E541411C12B76F0048692C /* addpic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4E541401C12B76F0048692C /* addpic.pdf */; };
+		A4F3EC0A1D86FC9000F79CAE /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A4F3EC091D86FC9000F79CAE /* intro.mp4 */; };
+		A4F3EC0E1D87AFA800F79CAE /* getsquadbucks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4F3EC0D1D87AFA800F79CAE /* getsquadbucks.pdf */; };
+		A4F3EC101D87B42600F79CAE /* inviteplayers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4F3EC0F1D87B42600F79CAE /* inviteplayers.pdf */; };
+		A4F5EEAB1C7E8AE8000537ED /* GameStatsSummaryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5EEAA1C7E8AE7000537ED /* GameStatsSummaryTVC.swift */; };
+		A4F5EEAD1C7EBE4A000537ED /* GameStatsSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5EEAC1C7EBE4A000537ED /* GameStatsSummaryTableViewCell.swift */; };
+		A4F5EEAF1C7F841A000537ED /* ProfileStatsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5EEAE1C7F841A000537ED /* ProfileStatsCVCell.swift */; };
+		A4F5EEB11C7F89C6000537ED /* ProfileInfoTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5EEB01C7F89C6000537ED /* ProfileInfoTVCell.swift */; };
+		A4F8BF511D45EFDD00A8E6FF /* logo-gold.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4F8BF501D45EFDD00A8E6FF /* logo-gold.pdf */; };
+		A4F8BF531D470CEB00A8E6FF /* logo-icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4F8BF521D470CEB00A8E6FF /* logo-icon.pdf */; };
+		A4F8BF551D470E6700A8E6FF /* FuturaCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4F8BF541D470E6700A8E6FF /* FuturaCondensedItalic.ttf */; };
+		A4FD335A1D18E22B0079916A /* hudl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4FD33591D18E22B0079916A /* hudl.pdf */; };
+		A4FD335C1D18E7180079916A /* close.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A4FD335B1D18E7180079916A /* close.pdf */; };
+		B804810E1C73E39B005C86D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B804810D1C73E39B005C86D2 /* CoreLocation.framework */; };
+		B80481101C73EB41005C86D2 /* LocationPickerNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804810F1C73EB41005C86D2 /* LocationPickerNC.swift */; };
+		B80481181C8FA3CD005C86D2 /* ChatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80481171C8FA3CD005C86D2 /* ChatObject.swift */; };
+		B805F3F71C51871200F8997B /* SeasonSelectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B805F3F61C51871200F8997B /* SeasonSelectorDelegate.swift */; };
+		B809E4A41BFE990800B9F31F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809E4A31BFE990800B9F31F /* MainVC.swift */; };
+		B809E4A61BFE9FDA00B9F31F /* SquadCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809E4A51BFE9FDA00B9F31F /* SquadCore.swift */; };
+		B81013A51C2366AC003238EB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013A41C2366AC003238EB /* ChatVC.swift */; };
+		B8183A161C17A0DE0097031E /* RosterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8183A151C17A0DE0097031E /* RosterVC.swift */; };
+		B8183A181C17AB290097031E /* RosterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8183A171C17AB290097031E /* RosterTableViewCell.swift */; };
+		B8183A1B1C1A45100097031E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8183A1A1C1A45100097031E /* HomeVC.swift */; };
+		B8183A1F1C1A495D0097031E /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8183A1E1C1A495D0097031E /* ScheduleCell.swift */; };
+		B81E20261C08FDEF008BBA7A /* SquadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E20251C08FDEF008BBA7A /* SquadTableViewCell.swift */; };
+		B81E20281C090A51008BBA7A /* JoinSquadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E20271C090A51008BBA7A /* JoinSquadVC.swift */; };
+		B82659611C6B9AB0005F4EB3 /* SeasonAveragesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82659601C6B9AB0005F4EB3 /* SeasonAveragesTVC.swift */; };
+		B82877E81CD4FD1E00F53D09 /* UIView+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82877E71CD4FD1E00F53D09 /* UIView+Extras.swift */; };
+		B82877EA1CD4FD5600F53D09 /* UIViewController+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82877E91CD4FD5600F53D09 /* UIViewController+Extras.swift */; };
+		B82877F01CDE43D200F53D09 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82877EF1CDE43D200F53D09 /* EditProfileVC.swift */; };
+		B84329761C641CF7008089A7 /* SeasonTotalPlayerDataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84329751C641CF7008089A7 /* SeasonTotalPlayerDataCollectionViewCell.swift */; };
+		B84406B11C61739B00D921C4 /* SeasonTotalsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84406B01C61739B00D921C4 /* SeasonTotalsTVC.swift */; };
+		B86AEBF41C7CF74B00A8B9E7 /* GameStatPlayerStatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AEBF31C7CF74B00A8B9E7 /* GameStatPlayerStatsTableViewCell.swift */; };
+		B86AEBF61C7CF78F00A8B9E7 /* GameStatPlayerStatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AEBF51C7CF78F00A8B9E7 /* GameStatPlayerStatsTableViewController.swift */; };
+		B86E969B1CAB0103007368F8 /* StatScrollGridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E969A1CAB0103007368F8 /* StatScrollGridVC.swift */; };
+		B87F50A71C285FD400156B36 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50A61C285FD400156B36 /* ChatTableViewCell.swift */; };
+		B87F50E51C29F73300156B36 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = B87F50E41C29F73300156B36 /* TODO */; };
+		B87F50E91C32EE1E00156B36 /* StatCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50E81C32EE1E00156B36 /* StatCollectionCell.swift */; };
+		B87F50EB1C32EE7A00156B36 /* PlayerStatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50EA1C32EE7A00156B36 /* PlayerStatVC.swift */; };
+		B8A388CC1D0902E00022DD70 /* AddDummyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A388CB1D0902E00022DD70 /* AddDummyVC.swift */; };
+		B8CC4C121C7651DE00A3C2A9 /* LocationPlotterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC4C111C7651DE00A3C2A9 /* LocationPlotterVC.swift */; };
+		B8CC4C141C76560F00A3C2A9 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC4C131C76560F00A3C2A9 /* MapAnnotation.swift */; };
+		B8DC6D011C440F0100269D5D /* StatCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC6D001C440F0100269D5D /* StatCollection.swift */; };
+		B8E3ADD81C4EDA9C00FE8FB5 /* SeasonManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E3ADD71C4EDA9C00FE8FB5 /* SeasonManagerVC.swift */; };
+		B8EAF9871CA315C000D1C7DD /* ChatBubbleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EAF9861CA315C000D1C7DD /* ChatBubbleVC.swift */; };
+		B8F5E0131C5AAC7D0064BA82 /* SeasonTotalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5E0121C5AAC7D0064BA82 /* SeasonTotalsTableViewCell.swift */; };
+		B8F5E01A1C5C207A0064BA82 /* SeasonLeadersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5E0191C5C207A0064BA82 /* SeasonLeadersTVC.swift */; };
+		B8F5E01C1C5C27F00064BA82 /* StatTotals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5E01B1C5C27F00064BA82 /* StatTotals.swift */; };
+		DC4C616D109B415DC85E7A9A /* Pods_SquadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF66D5CCB620D967F4C9EA9 /* Pods_SquadUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8470C46E1BFC18C0005A69E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8470C4511BFC18BF005A69E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8470C4581BFC18BF005A69E5;
+			remoteInfo = Squad;
+		};
+		8470C4791BFC18C0005A69E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8470C4511BFC18BF005A69E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8470C4581BFC18BF005A69E5;
+			remoteInfo = Squad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16FDFBF443D98AFF2264FD55 /* Pods-SquadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquadTests/Pods-SquadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF66D5CCB620D967F4C9EA9 /* Pods_SquadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCFAAB102F74B33870FE443 /* Pods_SquadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ACD8A41387DF02D936C48A /* Pods_Squad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF82B02807CA71C5DF51B69 /* Pods-SquadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquadUITests/Pods-SquadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B0E01833CC9AF62298136DA /* Pods-Squad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Squad/Pods-Squad.release.xcconfig"; sourceTree = "<group>"; };
+		680A0E371D6555A300F996B6 /* TokenProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenProductList.swift; sourceTree = "<group>"; };
+		680A0E391D65573E00F996B6 /* TokenProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenProductListCell.swift; sourceTree = "<group>"; };
+		6811DFBA1D485A1400FE622A /* MapHolderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapHolderVC.swift; sourceTree = "<group>"; };
+		6813911D1D6D37CB0063A4E1 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		682DFB551D845333008F0674 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		682DFB571D845A5C008F0674 /* Accounts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Accounts; sourceTree = "<group>"; };
+		683802CD1D52D11A0022CB77 /* SSCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSCell.swift; sourceTree = "<group>"; };
+		683802D01D52DDCE0022CB77 /* CareerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareerVC.swift; sourceTree = "<group>"; };
+		683B7F9E1D5D6D69003383BE /* ChatContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContainerVC.swift; sourceTree = "<group>"; };
+		683B7FA11D5D6EE9003383BE /* PremiumRequiredVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumRequiredVC.swift; sourceTree = "<group>"; };
+		6866D7371D8F72DB0044BF1E /* Squad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Squad.entitlements; sourceTree = "<group>"; };
+		6866E6BC1D6D2F18006458D4 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		686D7F371D3152F9007E7C95 /* AnnouncementCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementCVCell.swift; sourceTree = "<group>"; };
+		686D7F391D31576D007E7C95 /* NewAnnouncementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAnnouncementVC.swift; sourceTree = "<group>"; };
+		686D7F3B1D35D5B9007E7C95 /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		687106C61D4AF26F00554DB0 /* StartNewSeasonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartNewSeasonVC.swift; sourceTree = "<group>"; };
+		6876A0321D68B24000A64111 /* PremiumPurchaseListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumPurchaseListCell.swift; sourceTree = "<group>"; };
+		688CC4C81D07BDC1008810AF /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		68A71ECD1D314FF200D75F99 /* AnnouncementsCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsCVC.swift; sourceTree = "<group>"; };
+		68A919C61D3872FC008F734B /* ManageAdminsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageAdminsVC.swift; sourceTree = "<group>"; };
+		68A919C81D387363008F734B /* ManageAdminsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageAdminsList.swift; sourceTree = "<group>"; };
+		68A919CE1D3C7517008F734B /* TeamProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamProfileVC.swift; sourceTree = "<group>"; };
+		68B15DD11D41AF3600F38BE4 /* OnBoardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		68B5BFE61D3F11CE000E997B /* ManageRosterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageRosterVC.swift; sourceTree = "<group>"; };
+		68B5BFE81D3F1301000E997B /* ManageRosterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageRosterList.swift; sourceTree = "<group>"; };
+		68BC99B11D61614F0097E169 /* TeamWalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamWalletVC.swift; sourceTree = "<group>"; };
+		68BC99B31D6162050097E169 /* WalletActivityList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletActivityList.swift; sourceTree = "<group>"; };
+		68BC99B51D63F3080097E169 /* BuyTokenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyTokenVC.swift; sourceTree = "<group>"; };
+		68BC99B71D6406E30097E169 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		68EEC7981D68ADA30040D1A2 /* PremiumPurchaseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumPurchaseList.swift; sourceTree = "<group>"; };
+		68FE1B421D542A6F0054A4FD /* CareerLeadersTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareerLeadersTVC.swift; sourceTree = "<group>"; };
+		7DDD2AE48A036F9ED36B5BAA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470C4591BFC18BF005A69E5 /* Squad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470C45C1BFC18BF005A69E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8470C4611BFC18BF005A69E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8470C4631BFC18C0005A69E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8470C4661BFC18C0005A69E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8470C46D1BFC18C0005A69E5 /* SquadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470C4711BFC18C0005A69E5 /* SquadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadTests.swift; sourceTree = "<group>"; };
+		8470C4731BFC18C0005A69E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8470C4781BFC18C0005A69E5 /* SquadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470C47C1BFC18C0005A69E5 /* SquadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadUITests.swift; sourceTree = "<group>"; };
+		8470C47E1BFC18C0005A69E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A402F65F1C49B444000D9E0D /* avenir-next-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "avenir-next-thin.ttf"; sourceTree = "<group>"; };
+		A402F6611C49B44F000D9E0D /* avenir-next-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "avenir-next-regular.ttf"; sourceTree = "<group>"; };
+		A407BA5F1D729E8100A6A5AA /* bg-white.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "bg-white.pdf"; sourceTree = "<group>"; };
+		A407BA611D729EE300A6A5AA /* logo-dark.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "logo-dark.pdf"; sourceTree = "<group>"; };
+		A407BA631D729FB300A6A5AA /* logo-white.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "logo-white.pdf"; sourceTree = "<group>"; };
+		A407BA651D74074D00A6A5AA /* sznpass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sznpass.pdf; sourceTree = "<group>"; };
+		A40AACBB1C5C085A005858EF /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		A40B18371D1A349300968C13 /* default.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = default.pdf; sourceTree = "<group>"; };
+		A40E20511C94045A0006EF1C /* DharmaGothicE_Bold_I.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DharmaGothicE_Bold_I.otf; sourceTree = "<group>"; };
+		A40E20521C94045A0006EF1C /* DharmaGothicE_Heavy_I.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DharmaGothicE_Heavy_I.otf; sourceTree = "<group>"; };
+		A40E20551C97A7470006EF1C /* DharmaGothicE_Light_I.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DharmaGothicE_Light_I.otf; sourceTree = "<group>"; };
+		A40E20561C97A7470006EF1C /* DharmaGothicE_Light_R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DharmaGothicE_Light_R.otf; sourceTree = "<group>"; };
+		A40E20571C97A7470006EF1C /* DharmaGothicE_Regular_I.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DharmaGothicE_Regular_I.otf; sourceTree = "<group>"; };
+		A414A3D91D4F1AF0007E157A /* ss-baseball.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ss-baseball.pdf"; sourceTree = "<group>"; };
+		A414A3DA1D4F1AF0007E157A /* ss-basketball.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ss-basketball.pdf"; sourceTree = "<group>"; };
+		A414A3DB1D4F1AF0007E157A /* ss-football.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ss-football.pdf"; sourceTree = "<group>"; };
+		A414A3DC1D4F1AF0007E157A /* ss-hockey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ss-hockey.pdf"; sourceTree = "<group>"; };
+		A414A3DD1D4F1AF0007E157A /* ss-lacrosse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ss-lacrosse.pdf"; sourceTree = "<group>"; };
+		A414A3DE1D4F1AF0007E157A /* ss-soccer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ss-soccer.pdf"; sourceTree = "<group>"; };
+		A41532361C0FEDC000750BB1 /* tb-home-active.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-home-active.pdf"; sourceTree = "<group>"; };
+		A41532371C0FEDC000750BB1 /* tb-home-inactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-home-inactive.pdf"; sourceTree = "<group>"; };
+		A41532381C0FEDC000750BB1 /* tb-inbox-active.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-inbox-active.pdf"; sourceTree = "<group>"; };
+		A41532391C0FEDC000750BB1 /* tb-inbox-inactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-inbox-inactive.pdf"; sourceTree = "<group>"; };
+		A415323A1C0FEDC000750BB1 /* tb-roster-active.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-roster-active.pdf"; sourceTree = "<group>"; };
+		A415323B1C0FEDC000750BB1 /* tb-roster-inactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-roster-inactive.pdf"; sourceTree = "<group>"; };
+		A415323C1C0FEDC000750BB1 /* tb-sched-active.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-sched-active.pdf"; sourceTree = "<group>"; };
+		A415323D1C0FEDC000750BB1 /* tb-sched-inactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-sched-inactive.pdf"; sourceTree = "<group>"; };
+		A415323E1C0FEDC000750BB1 /* tb-stats-active.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-stats-active.pdf"; sourceTree = "<group>"; };
+		A415323F1C0FEDC000750BB1 /* tb-stats-inactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-stats-inactive.pdf"; sourceTree = "<group>"; };
+		A41A562A1C672EA30000904E /* Trade Gothic LT Bold Condensed No. 20.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trade Gothic LT Bold Condensed No. 20.ttf"; sourceTree = "<group>"; };
+		A41FD5671D8D1DD900B75540 /* Diamante-DemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diamante-DemiBold.otf"; sourceTree = "<group>"; };
+		A41FD5691D8DDE4B00B75540 /* default-team-wide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "default-team-wide.pdf"; sourceTree = "<group>"; };
+		A41FD56B1D8E3E0900B75540 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A41FD56D1D8E68FD00B75540 /* switch-off.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "switch-off.pdf"; sourceTree = "<group>"; };
+		A41FD56E1D8E68FD00B75540 /* switch-on.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "switch-on.pdf"; sourceTree = "<group>"; };
+		A41FD5711D8F1A1500B75540 /* default-scheduleteam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "default-scheduleteam.pdf"; sourceTree = "<group>"; };
+		A41FD5731D8F4EA700B75540 /* settings-sliders.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "settings-sliders.pdf"; sourceTree = "<group>"; };
+		A41FD5751D8F531B00B75540 /* sznpassbg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sznpassbg.pdf; sourceTree = "<group>"; };
+		A41FD5771D8F5D5700B75540 /* HomeTVCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVCell1.swift; sourceTree = "<group>"; };
+		A4251AD51D77EE1F0015EA26 /* default-team.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "default-team.pdf"; sourceTree = "<group>"; };
+		A42E414A1C3E44E500E7E88D /* SelectSportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSportCell.swift; sourceTree = "<group>"; };
+		A433B3581D6E816A008B3295 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		A433B3591D6E816A008B3295 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		A439DC6A1C5C4FA20078EC65 /* SeasonLeadersTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonLeadersTVCell.swift; sourceTree = "<group>"; };
+		A439DC6C1C5ED3F20078EC65 /* RollCallTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollCallTVCell.swift; sourceTree = "<group>"; };
+		A439DC6E1C5EEAD40078EC65 /* rollcall-idk.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rollcall-idk.pdf"; sourceTree = "<group>"; };
+		A439DC711C5EEAD40078EC65 /* rollcall-injured.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rollcall-injured.pdf"; sourceTree = "<group>"; };
+		A439DC721C5EEAD40078EC65 /* rollcall-late.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rollcall-late.pdf"; sourceTree = "<group>"; };
+		A439DC731C5EEAD40078EC65 /* rollcall-vacation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rollcall-vacation.pdf"; sourceTree = "<group>"; };
+		A439DC7A1C5F101A0078EC65 /* rollcall-imin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rollcall-imin.pdf"; sourceTree = "<group>"; };
+		A439DC7B1C5F101A0078EC65 /* rollcall-imout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "rollcall-imout.pdf"; sourceTree = "<group>"; };
+		A45241731C5838FF00863226 /* SelectSportTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSportTVC.swift; sourceTree = "<group>"; };
+		A45556091D88F348007AB5D3 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
+		A45F91841D07D96900D23E17 /* bg-dark.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "bg-dark.pdf"; sourceTree = "<group>"; };
+		A45F91861D07DB5D00D23E17 /* HudsonNY.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HudsonNY.otf; sourceTree = "<group>"; };
+		A46475CC1C1ACCCA0072A969 /* SquadCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquadCollectionViewCell.swift; sourceTree = "<group>"; };
+		A46476431C27E2CD0072A969 /* tb-chat-active.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-chat-active.pdf"; sourceTree = "<group>"; };
+		A46476441C27E2CD0072A969 /* tb-chat-inactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "tb-chat-inactive.pdf"; sourceTree = "<group>"; };
+		A46476471C2925080072A969 /* GameStatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatsVC.swift; sourceTree = "<group>"; };
+		A46476A51C2A31250072A969 /* Squad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Squad-Bridging-Header.h"; sourceTree = "<group>"; };
+		A46476A61C2A31260072A969 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		A46476A71C2A31260072A969 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		A46476AB1C2F8FBA0072A969 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A46476AD1C2FA20E0072A969 /* BackArrow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BackArrow.pdf; sourceTree = "<group>"; };
+		A466D3FF1C60124000F5296C /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		A467DA861BFDB2B600467DF2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A46B26361CDEFDDC00D74800 /* Futura LT Extra Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Extra Bold.ttf"; sourceTree = "<group>"; };
+		A47725C31C4398F600ACC507 /* CreateEventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventVC.swift; sourceTree = "<group>"; };
+		A47725C51C45CF7E00ACC507 /* GameStatTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatTVC.swift; sourceTree = "<group>"; };
+		A47725C71C45FA6F00ACC507 /* SznVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SznVC.swift; sourceTree = "<group>"; };
+		A47EA4391C770D4F00C3B71B /* more-blk.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "more-blk.pdf"; sourceTree = "<group>"; };
+		A47F29D01D505AB0005CEE92 /* triangle-left.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "triangle-left.pdf"; sourceTree = "<group>"; };
+		A47F29D11D505AB0005CEE92 /* triangle-right.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "triangle-right.pdf"; sourceTree = "<group>"; };
+		A47F29D41D506AD8005CEE92 /* Bars.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Bars.pdf; sourceTree = "<group>"; };
+		A4889DF91D13ADF10057C1F7 /* fblogo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fblogo.pdf; sourceTree = "<group>"; };
+		A489005B1C4259100090595E /* RollCallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollCallVC.swift; sourceTree = "<group>"; };
+		A489ABDD1C3378C10096780F /* BackArrow-white.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BackArrow-white.pdf"; sourceTree = "<group>"; };
+		A489ABDF1C339A540096780F /* triangle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = triangle.pdf; sourceTree = "<group>"; };
+		A489ABF91C37D82A0096780F /* stepperDown-Grn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "stepperDown-Grn.pdf"; sourceTree = "<group>"; };
+		A489ABFA1C37D82A0096780F /* stepperUp-Grn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "stepperUp-Grn.pdf"; sourceTree = "<group>"; };
+		A49423DB1D91FD6500B00813 /* s-icon-blk.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "s-icon-blk.pdf"; sourceTree = "<group>"; };
+		A49423DC1D91FD6500B00813 /* s-icon-white.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "s-icon-white.pdf"; sourceTree = "<group>"; };
+		A49423DF1D920F0900B00813 /* splash.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = splash.pdf; sourceTree = "<group>"; };
+		A4A653041C3E740800F1CADD /* RosterCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterCollectionCell.swift; sourceTree = "<group>"; };
+		A4A653641C3F282800F1CADD /* stepperDown.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = stepperDown.pdf; sourceTree = "<group>"; };
+		A4A653651C3F282800F1CADD /* stepperUp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = stepperUp.pdf; sourceTree = "<group>"; };
+		A4A6536E1C41114200F1CADD /* sched-bg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "sched-bg.pdf"; sourceTree = "<group>"; };
+		A4AD12541CB4BBF10024EE82 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		A4B2F5881C5B421500E490C5 /* SeasonStatMenuCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonStatMenuCollectionCell.swift; sourceTree = "<group>"; };
+		A4B47ED91D8136DB00101790 /* default-squad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "default-squad.pdf"; sourceTree = "<group>"; };
+		A4B47EDD1D813EF800101790 /* SEIZETHEGAME.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SEIZETHEGAME.pdf; sourceTree = "<group>"; };
+		A4CA18101C6DDA0F007773DB /* DGRunkeeperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGRunkeeperSwitch.swift; sourceTree = "<group>"; };
+		A4CA182B1C71931E007773DB /* FoldScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldScheduleVC.swift; sourceTree = "<group>"; };
+		A4CA182D1C71932F007773DB /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		A4CA18371C75C34A007773DB /* more.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = more.pdf; sourceTree = "<group>"; };
+		A4D013DB1D611648002920AF /* createsquad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = createsquad.pdf; sourceTree = "<group>"; };
+		A4D013DF1D61166A002920AF /* joinsquad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = joinsquad.pdf; sourceTree = "<group>"; };
+		A4D13D821D84816700E7167E /* blur-huddle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "blur-huddle.pdf"; sourceTree = "<group>"; };
+		A4D13D841D848A8100E7167E /* camera_btn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = camera_btn.pdf; sourceTree = "<group>"; };
+		A4D13D861D84CB4900E7167E /* PillGothic300mg-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PillGothic300mg-Regular.ttf"; sourceTree = "<group>"; };
+		A4D13D881D84CB5F00E7167E /* PillGothic300mg-BoldObq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PillGothic300mg-BoldObq.ttf"; sourceTree = "<group>"; };
+		A4D13D901D863C3B00E7167E /* seize.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = seize.pdf; sourceTree = "<group>"; };
+		A4D5222C1D5998C10003C49F /* settings.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = settings.pdf; sourceTree = "<group>"; };
+		A4D5222E1D599ABB0003C49F /* SquadHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquadHomeViewController.swift; sourceTree = "<group>"; };
+		A4DBC8781D49D95E00245984 /* squad-loading.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "squad-loading.pdf"; sourceTree = "<group>"; };
+		A4E184341C57836300D6B2CF /* CreateSkwadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSkwadTableViewController.swift; sourceTree = "<group>"; };
+		A4E5413E1C12A3B50048692C /* CreateProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
+		A4E541401C12B76F0048692C /* addpic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = addpic.pdf; sourceTree = "<group>"; };
+		A4F3EC091D86FC9000F79CAE /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
+		A4F3EC0D1D87AFA800F79CAE /* getsquadbucks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = getsquadbucks.pdf; sourceTree = "<group>"; };
+		A4F3EC0F1D87B42600F79CAE /* inviteplayers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = inviteplayers.pdf; sourceTree = "<group>"; };
+		A4F5EEAA1C7E8AE7000537ED /* GameStatsSummaryTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatsSummaryTVC.swift; sourceTree = "<group>"; };
+		A4F5EEAC1C7EBE4A000537ED /* GameStatsSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatsSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		A4F5EEAE1C7F841A000537ED /* ProfileStatsCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStatsCVCell.swift; sourceTree = "<group>"; };
+		A4F5EEB01C7F89C6000537ED /* ProfileInfoTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInfoTVCell.swift; sourceTree = "<group>"; };
+		A4F8BF501D45EFDD00A8E6FF /* logo-gold.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "logo-gold.pdf"; sourceTree = "<group>"; };
+		A4F8BF521D470CEB00A8E6FF /* logo-icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "logo-icon.pdf"; sourceTree = "<group>"; };
+		A4F8BF541D470E6700A8E6FF /* FuturaCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaCondensedItalic.ttf; sourceTree = "<group>"; };
+		A4FD33591D18E22B0079916A /* hudl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = hudl.pdf; sourceTree = "<group>"; };
+		A4FD335B1D18E7180079916A /* close.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = close.pdf; sourceTree = "<group>"; };
+		B804810D1C73E39B005C86D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B804810F1C73EB41005C86D2 /* LocationPickerNC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPickerNC.swift; sourceTree = "<group>"; };
+		B80481171C8FA3CD005C86D2 /* ChatObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatObject.swift; sourceTree = "<group>"; };
+		B805F3F61C51871200F8997B /* SeasonSelectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonSelectorDelegate.swift; sourceTree = "<group>"; };
+		B809E4A31BFE990800B9F31F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B809E4A51BFE9FDA00B9F31F /* SquadCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquadCore.swift; sourceTree = "<group>"; };
+		B81013A41C2366AC003238EB /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		B8183A151C17A0DE0097031E /* RosterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterVC.swift; sourceTree = "<group>"; };
+		B8183A171C17AB290097031E /* RosterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterTableViewCell.swift; sourceTree = "<group>"; };
+		B8183A1A1C1A45100097031E /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B8183A1E1C1A495D0097031E /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		B81E20251C08FDEF008BBA7A /* SquadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquadTableViewCell.swift; sourceTree = "<group>"; };
+		B81E20271C090A51008BBA7A /* JoinSquadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinSquadVC.swift; sourceTree = "<group>"; };
+		B82659601C6B9AB0005F4EB3 /* SeasonAveragesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonAveragesTVC.swift; sourceTree = "<group>"; };
+		B82877E71CD4FD1E00F53D09 /* UIView+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extras.swift"; sourceTree = "<group>"; };
+		B82877E91CD4FD5600F53D09 /* UIViewController+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extras.swift"; sourceTree = "<group>"; };
+		B82877EF1CDE43D200F53D09 /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		B84329751C641CF7008089A7 /* SeasonTotalPlayerDataCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonTotalPlayerDataCollectionViewCell.swift; sourceTree = "<group>"; };
+		B84406B01C61739B00D921C4 /* SeasonTotalsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonTotalsTVC.swift; sourceTree = "<group>"; };
+		B86AEBF31C7CF74B00A8B9E7 /* GameStatPlayerStatsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatPlayerStatsTableViewCell.swift; sourceTree = "<group>"; };
+		B86AEBF51C7CF78F00A8B9E7 /* GameStatPlayerStatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatPlayerStatsTableViewController.swift; sourceTree = "<group>"; };
+		B86E969A1CAB0103007368F8 /* StatScrollGridVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatScrollGridVC.swift; sourceTree = "<group>"; };
+		B87F50A61C285FD400156B36 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		B87F50E41C29F73300156B36 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		B87F50E81C32EE1E00156B36 /* StatCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatCollectionCell.swift; sourceTree = "<group>"; };
+		B87F50EA1C32EE7A00156B36 /* PlayerStatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStatVC.swift; sourceTree = "<group>"; };
+		B8A388CB1D0902E00022DD70 /* AddDummyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDummyVC.swift; sourceTree = "<group>"; };
+		B8CC4C111C7651DE00A3C2A9 /* LocationPlotterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPlotterVC.swift; sourceTree = "<group>"; };
+		B8CC4C131C76560F00A3C2A9 /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		B8DC6CFB1C4401B300269D5D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DC6D001C440F0100269D5D /* StatCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatCollection.swift; sourceTree = "<group>"; };
+		B8E3ADD71C4EDA9C00FE8FB5 /* SeasonManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonManagerVC.swift; sourceTree = "<group>"; };
+		B8EAF9861CA315C000D1C7DD /* ChatBubbleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubbleVC.swift; sourceTree = "<group>"; };
+		B8F5E0121C5AAC7D0064BA82 /* SeasonTotalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonTotalsTableViewCell.swift; sourceTree = "<group>"; };
+		B8F5E0191C5C207A0064BA82 /* SeasonLeadersTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonLeadersTVC.swift; sourceTree = "<group>"; };
+		B8F5E01B1C5C27F00064BA82 /* StatTotals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatTotals.swift; sourceTree = "<group>"; };
+		D7832269844152DB520405FF /* Pods-Squad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Squad/Pods-Squad.debug.xcconfig"; sourceTree = "<group>"; };
+		E2BADF6A73824A01AA3EB9BB /* Pods-SquadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquadUITests/Pods-SquadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF13AEA7543D6563575F862 /* Pods-SquadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquadTests/Pods-SquadTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8470C4561BFC18BF005A69E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BC99B81D6406E30097E169 /* StoreKit.framework in Frameworks */,
+				B804810E1C73E39B005C86D2 /* CoreLocation.framework in Frameworks */,
+				88A9D4A197F2CFFA32F800D7 /* Pods_Squad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470C46A1BFC18C0005A69E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C25080D99589C219478F6C /* Pods_SquadTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470C4751BFC18C0005A69E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4C616D109B415DC85E7A9A /* Pods_SquadUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683802CF1D52DD860022CB77 /* Career Stats */ = {
+			isa = PBXGroup;
+			children = (
+				683802D01D52DDCE0022CB77 /* CareerVC.swift */,
+				68FE1B421D542A6F0054A4FD /* CareerLeadersTVC.swift */,
+			);
+			name = "Career Stats";
+			sourceTree = "<group>";
+		};
+		683B7FA01D5D6ECC003383BE /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				683B7FA11D5D6EE9003383BE /* PremiumRequiredVC.swift */,
+				68BC99B11D61614F0097E169 /* TeamWalletVC.swift */,
+				68BC99B31D6162050097E169 /* WalletActivityList.swift */,
+				68BC99B51D63F3080097E169 /* BuyTokenVC.swift */,
+				680A0E371D6555A300F996B6 /* TokenProductList.swift */,
+				680A0E391D65573E00F996B6 /* TokenProductListCell.swift */,
+				68EEC7981D68ADA30040D1A2 /* PremiumPurchaseList.swift */,
+				6876A0321D68B24000A64111 /* PremiumPurchaseListCell.swift */,
+			);
+			name = Premium;
+			sourceTree = "<group>";
+		};
+		686D7F361D3152CE007E7C95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				686D7F371D3152F9007E7C95 /* AnnouncementCVCell.swift */,
+				A41FD5771D8F5D5700B75540 /* HomeTVCell1.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		68A919C51D3872CD008F734B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A41FD56B1D8E3E0900B75540 /* SettingsViewController.swift */,
+				686D7F3B1D35D5B9007E7C95 /* SettingsTVC.swift */,
+				68A919C61D3872FC008F734B /* ManageAdminsVC.swift */,
+				68A919C81D387363008F734B /* ManageAdminsList.swift */,
+				B82877EF1CDE43D200F53D09 /* EditProfileVC.swift */,
+				68A919CE1D3C7517008F734B /* TeamProfileVC.swift */,
+				68B5BFE61D3F11CE000E997B /* ManageRosterVC.swift */,
+				68B5BFE81D3F1301000E997B /* ManageRosterList.swift */,
+				687106C61D4AF26F00554DB0 /* StartNewSeasonVC.swift */,
+				6866E6BC1D6D2F18006458D4 /* ChangePasswordVC.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		68B15DD01D41AF1E00F38BE4 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				68B15DD11D41AF3600F38BE4 /* OnBoardingVC.swift */,
+				6813911D1D6D37CB0063A4E1 /* ForgotPasswordVC.swift */,
+			);
+			name = OnBoarding;
+			sourceTree = "<group>";
+		};
+		6B70B7B91C9BF28DD7F8AD5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7832269844152DB520405FF /* Pods-Squad.debug.xcconfig */,
+				4B0E01833CC9AF62298136DA /* Pods-Squad.release.xcconfig */,
+				16FDFBF443D98AFF2264FD55 /* Pods-SquadTests.debug.xcconfig */,
+				FFF13AEA7543D6563575F862 /* Pods-SquadTests.release.xcconfig */,
+				E2BADF6A73824A01AA3EB9BB /* Pods-SquadUITests.debug.xcconfig */,
+				4AF82B02807CA71C5DF51B69 /* Pods-SquadUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8470C4501BFC18BF005A69E5 = {
+			isa = PBXGroup;
+			children = (
+				682DFB571D845A5C008F0674 /* Accounts */,
+				B87F50E41C29F73300156B36 /* TODO */,
+				8470C45B1BFC18BF005A69E5 /* Squad */,
+				8470C4701BFC18C0005A69E5 /* SquadTests */,
+				8470C47B1BFC18C0005A69E5 /* SquadUITests */,
+				8470C45A1BFC18BF005A69E5 /* Products */,
+				DA1368B8D61EF26FD4A4C5BC /* Frameworks */,
+				6B70B7B91C9BF28DD7F8AD5C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8470C45A1BFC18BF005A69E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8470C4591BFC18BF005A69E5 /* Squad.app */,
+				8470C46D1BFC18C0005A69E5 /* SquadTests.xctest */,
+				8470C4781BFC18C0005A69E5 /* SquadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8470C45B1BFC18BF005A69E5 /* Squad */ = {
+			isa = PBXGroup;
+			children = (
+				6866D7371D8F72DB0044BF1E /* Squad.entitlements */,
+				B8DC6CFB1C4401B300269D5D /* Info.plist */,
+				682DFB551D845333008F0674 /* GoogleService-Info.plist */,
+				A46476A41C2A31100072A969 /* Supporting Files */,
+				8470C4601BFC18BF005A69E5 /* Main.storyboard */,
+				8470C45C1BFC18BF005A69E5 /* AppDelegate.swift */,
+				B809E4A51BFE9FDA00B9F31F /* SquadCore.swift */,
+				B809E4A91BFEA2E200B9F31F /* Code Behinds */,
+				8470C4631BFC18C0005A69E5 /* Assets.xcassets */,
+				B8AD235D1C0E6DA70071BB44 /* images */,
+				8470C4651BFC18C0005A69E5 /* LaunchScreen.storyboard */,
+				A467DA851BFDAE0000467DF2 /* Fonts */,
+			);
+			path = Squad;
+			sourceTree = "<group>";
+		};
+		8470C4701BFC18C0005A69E5 /* SquadTests */ = {
+			isa = PBXGroup;
+			children = (
+				8470C4711BFC18C0005A69E5 /* SquadTests.swift */,
+				8470C4731BFC18C0005A69E5 /* Info.plist */,
+			);
+			path = SquadTests;
+			sourceTree = "<group>";
+		};
+		8470C47B1BFC18C0005A69E5 /* SquadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8470C47C1BFC18C0005A69E5 /* SquadUITests.swift */,
+				8470C47E1BFC18C0005A69E5 /* Info.plist */,
+			);
+			path = SquadUITests;
+			sourceTree = "<group>";
+		};
+		A46476A41C2A31100072A969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A46476A61C2A31260072A969 /* FXBlurView.h */,
+				A46476A71C2A31260072A969 /* FXBlurView.m */,
+				A46476A51C2A31250072A969 /* Squad-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A467DA851BFDAE0000467DF2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A41FD5671D8D1DD900B75540 /* Diamante-DemiBold.otf */,
+				A402F6611C49B44F000D9E0D /* avenir-next-regular.ttf */,
+				A402F65F1C49B444000D9E0D /* avenir-next-thin.ttf */,
+				A4D13D881D84CB5F00E7167E /* PillGothic300mg-BoldObq.ttf */,
+				A40E20511C94045A0006EF1C /* DharmaGothicE_Bold_I.otf */,
+				A4D13D861D84CB4900E7167E /* PillGothic300mg-Regular.ttf */,
+				A4F8BF541D470E6700A8E6FF /* FuturaCondensedItalic.ttf */,
+				A40E20521C94045A0006EF1C /* DharmaGothicE_Heavy_I.otf */,
+				A40E20551C97A7470006EF1C /* DharmaGothicE_Light_I.otf */,
+				A40E20561C97A7470006EF1C /* DharmaGothicE_Light_R.otf */,
+				A40E20571C97A7470006EF1C /* DharmaGothicE_Regular_I.otf */,
+				A433B3581D6E816A008B3295 /* Montserrat-Regular.otf */,
+				A433B3591D6E816A008B3295 /* Montserrat-SemiBold.otf */,
+				A45F91861D07DB5D00D23E17 /* HudsonNY.otf */,
+				A46B26361CDEFDDC00D74800 /* Futura LT Extra Bold.ttf */,
+				A40AACBB1C5C085A005858EF /* DS-DIGI.TTF */,
+				A41A562A1C672EA30000904E /* Trade Gothic LT Bold Condensed No. 20.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		A4F5EE9D1C7D5942000537ED /* Sign up / Log in */ = {
+			isa = PBXGroup;
+			children = (
+				A467DA861BFDB2B600467DF2 /* SignUpViewController.swift */,
+				A4E5413E1C12A3B50048692C /* CreateProfileVC.swift */,
+				A4AD12541CB4BBF10024EE82 /* OnboardViewController.swift */,
+			);
+			name = "Sign up / Log in";
+			sourceTree = "<group>";
+		};
+		A4F5EE9F1C7D59AF000537ED /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				A4F5EEA71C7D5C5D000537ED /* Cells */,
+				A4CA182B1C71931E007773DB /* FoldScheduleVC.swift */,
+				A47725C31C4398F600ACC507 /* CreateEventVC.swift */,
+				B804810F1C73EB41005C86D2 /* LocationPickerNC.swift */,
+				B8CC4C111C7651DE00A3C2A9 /* LocationPlotterVC.swift */,
+				B8E3ADD71C4EDA9C00FE8FB5 /* SeasonManagerVC.swift */,
+				6811DFBA1D485A1400FE622A /* MapHolderVC.swift */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		A4F5EEA01C7D59E4000537ED /* Szn Stats */ = {
+			isa = PBXGroup;
+			children = (
+				A4F5EEA61C7D5C51000537ED /* Cells */,
+				A47725C71C45FA6F00ACC507 /* SznVC.swift */,
+				B8F5E0191C5C207A0064BA82 /* SeasonLeadersTVC.swift */,
+				B84406B01C61739B00D921C4 /* SeasonTotalsTVC.swift */,
+				B82659601C6B9AB0005F4EB3 /* SeasonAveragesTVC.swift */,
+			);
+			name = "Szn Stats";
+			sourceTree = "<group>";
+		};
+		A4F5EEA11C7D5A84000537ED /* Main / Create / Join */ = {
+			isa = PBXGroup;
+			children = (
+				A4F5EEA81C7D5C64000537ED /* Cells */,
+				B809E4A31BFE990800B9F31F /* MainVC.swift */,
+				B81E20271C090A51008BBA7A /* JoinSquadVC.swift */,
+				A4E184341C57836300D6B2CF /* CreateSkwadTableViewController.swift */,
+				A45241731C5838FF00863226 /* SelectSportTVC.swift */,
+			);
+			name = "Main / Create / Join";
+			sourceTree = "<group>";
+		};
+		A4F5EEA21C7D5A9F000537ED /* Roster / Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B8183A171C17AB290097031E /* RosterTableViewCell.swift */,
+				B8183A151C17A0DE0097031E /* RosterVC.swift */,
+				A46476AB1C2F8FBA0072A969 /* ProfileVC.swift */,
+				A4F5EEB01C7F89C6000537ED /* ProfileInfoTVCell.swift */,
+				A4F5EEAE1C7F841A000537ED /* ProfileStatsCVCell.swift */,
+				B8A388CB1D0902E00022DD70 /* AddDummyVC.swift */,
+			);
+			name = "Roster / Profile";
+			sourceTree = "<group>";
+		};
+		A4F5EEA31C7D5AFE000537ED /* GameStat Roll Call */ = {
+			isa = PBXGroup;
+			children = (
+				A4F5EEA51C7D5C29000537ED /* Cells */,
+				A46476471C2925080072A969 /* GameStatsVC.swift */,
+				A4F5EEAA1C7E8AE7000537ED /* GameStatsSummaryTVC.swift */,
+				B87F50EA1C32EE7A00156B36 /* PlayerStatVC.swift */,
+				B86AEBF51C7CF78F00A8B9E7 /* GameStatPlayerStatsTableViewController.swift */,
+				A489005B1C4259100090595E /* RollCallVC.swift */,
+			);
+			name = "GameStat Roll Call";
+			sourceTree = "<group>";
+		};
+		A4F5EEA41C7D5BE8000537ED /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B81013A41C2366AC003238EB /* ChatVC.swift */,
+				B87F50A61C285FD400156B36 /* ChatTableViewCell.swift */,
+				B80481171C8FA3CD005C86D2 /* ChatObject.swift */,
+				B8EAF9861CA315C000D1C7DD /* ChatBubbleVC.swift */,
+				683B7F9E1D5D6D69003383BE /* ChatContainerVC.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		A4F5EEA51C7D5C29000537ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A439DC6C1C5ED3F20078EC65 /* RollCallTVCell.swift */,
+				A47725C51C45CF7E00ACC507 /* GameStatTVC.swift */,
+				A4A653041C3E740800F1CADD /* RosterCollectionCell.swift */,
+				B87F50E81C32EE1E00156B36 /* StatCollectionCell.swift */,
+				B86AEBF31C7CF74B00A8B9E7 /* GameStatPlayerStatsTableViewCell.swift */,
+				A4F5EEAC1C7EBE4A000537ED /* GameStatsSummaryTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A4F5EEA61C7D5C51000537ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B8F5E0121C5AAC7D0064BA82 /* SeasonTotalsTableViewCell.swift */,
+				A4B2F5881C5B421500E490C5 /* SeasonStatMenuCollectionCell.swift */,
+				A439DC6A1C5C4FA20078EC65 /* SeasonLeadersTVCell.swift */,
+				B84329751C641CF7008089A7 /* SeasonTotalPlayerDataCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A4F5EEA71C7D5C5D000537ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B8183A1E1C1A495D0097031E /* ScheduleCell.swift */,
+				A42E414A1C3E44E500E7E88D /* SelectSportCell.swift */,
+				A4CA182D1C71932F007773DB /* DemoCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A4F5EEA81C7D5C64000537ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A46475CC1C1ACCCA0072A969 /* SquadCollectionViewCell.swift */,
+				B81E20251C08FDEF008BBA7A /* SquadTableViewCell.swift */,
+				683802CD1D52D11A0022CB77 /* SSCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A4F5EEA91C7D5C78000537ED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				68A919C51D3872CD008F734B /* Settings */,
+				686D7F361D3152CE007E7C95 /* Cells */,
+				B8183A1A1C1A45100097031E /* HomeVC.swift */,
+				A4D5222E1D599ABB0003C49F /* SquadHomeViewController.swift */,
+				68A71ECD1D314FF200D75F99 /* AnnouncementsCVC.swift */,
+				686D7F391D31576D007E7C95 /* NewAnnouncementVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B805F3F51C51869E00F8997B /* CustomProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				B805F3F61C51871200F8997B /* SeasonSelectorDelegate.swift */,
+			);
+			name = CustomProtocols;
+			sourceTree = "<group>";
+		};
+		B809E4A91BFEA2E200B9F31F /* Code Behinds */ = {
+			isa = PBXGroup;
+			children = (
+				683B7FA01D5D6ECC003383BE /* Premium */,
+				68B15DD01D41AF1E00F38BE4 /* OnBoarding */,
+				B82877E41CD4FC7500F53D09 /* Class Extentions */,
+				B805F3F51C51869E00F8997B /* CustomProtocols */,
+				B8DC6CFF1C440EBF00269D5D /* CustomObjects */,
+				A4F5EE9D1C7D5942000537ED /* Sign up / Log in */,
+				A4F5EEA11C7D5A84000537ED /* Main / Create / Join */,
+				A4F5EEA91C7D5C78000537ED /* Home */,
+				A4F5EE9F1C7D59AF000537ED /* Schedule */,
+				A4F5EEA31C7D5AFE000537ED /* GameStat Roll Call */,
+				A4F5EEA21C7D5A9F000537ED /* Roster / Profile */,
+				A4F5EEA41C7D5BE8000537ED /* Chat */,
+				683802CF1D52DD860022CB77 /* Career Stats */,
+				A4F5EEA01C7D59E4000537ED /* Szn Stats */,
+			);
+			name = "Code Behinds";
+			sourceTree = "<group>";
+		};
+		B82877E41CD4FC7500F53D09 /* Class Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				B82877E71CD4FD1E00F53D09 /* UIView+Extras.swift */,
+				B82877E91CD4FD5600F53D09 /* UIViewController+Extras.swift */,
+			);
+			name = "Class Extentions";
+			sourceTree = "<group>";
+		};
+		B8AD235D1C0E6DA70071BB44 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3EC091D86FC9000F79CAE /* intro.mp4 */,
+				A49423DF1D920F0900B00813 /* splash.pdf */,
+				A49423DB1D91FD6500B00813 /* s-icon-blk.pdf */,
+				A49423DC1D91FD6500B00813 /* s-icon-white.pdf */,
+				A41FD5731D8F4EA700B75540 /* settings-sliders.pdf */,
+				A41FD5751D8F531B00B75540 /* sznpassbg.pdf */,
+				A41FD56D1D8E68FD00B75540 /* switch-off.pdf */,
+				A41FD56E1D8E68FD00B75540 /* switch-on.pdf */,
+				A41FD5711D8F1A1500B75540 /* default-scheduleteam.pdf */,
+				A41FD5691D8DDE4B00B75540 /* default-team-wide.pdf */,
+				A45556091D88F348007AB5D3 /* 1.pdf */,
+				A4F3EC0F1D87B42600F79CAE /* inviteplayers.pdf */,
+				A4D13D901D863C3B00E7167E /* seize.pdf */,
+				A4F3EC0D1D87AFA800F79CAE /* getsquadbucks.pdf */,
+				A4D13D841D848A8100E7167E /* camera_btn.pdf */,
+				A4B47EDD1D813EF800101790 /* SEIZETHEGAME.pdf */,
+				A4D13D821D84816700E7167E /* blur-huddle.pdf */,
+				A4B47ED91D8136DB00101790 /* default-squad.pdf */,
+				A4251AD51D77EE1F0015EA26 /* default-team.pdf */,
+				A407BA651D74074D00A6A5AA /* sznpass.pdf */,
+				A407BA5F1D729E8100A6A5AA /* bg-white.pdf */,
+				A407BA611D729EE300A6A5AA /* logo-dark.pdf */,
+				A4D013DB1D611648002920AF /* createsquad.pdf */,
+				A4D013DF1D61166A002920AF /* joinsquad.pdf */,
+				A47F29D41D506AD8005CEE92 /* Bars.pdf */,
+				A47F29D01D505AB0005CEE92 /* triangle-left.pdf */,
+				A47F29D11D505AB0005CEE92 /* triangle-right.pdf */,
+				A414A3D91D4F1AF0007E157A /* ss-baseball.pdf */,
+				A414A3DA1D4F1AF0007E157A /* ss-basketball.pdf */,
+				A414A3DB1D4F1AF0007E157A /* ss-football.pdf */,
+				A414A3DC1D4F1AF0007E157A /* ss-hockey.pdf */,
+				A407BA631D729FB300A6A5AA /* logo-white.pdf */,
+				A414A3DD1D4F1AF0007E157A /* ss-lacrosse.pdf */,
+				A414A3DE1D4F1AF0007E157A /* ss-soccer.pdf */,
+				A4DBC8781D49D95E00245984 /* squad-loading.pdf */,
+				A4F8BF501D45EFDD00A8E6FF /* logo-gold.pdf */,
+				A4F8BF521D470CEB00A8E6FF /* logo-icon.pdf */,
+				A40B18371D1A349300968C13 /* default.pdf */,
+				A4FD335B1D18E7180079916A /* close.pdf */,
+				A4FD33591D18E22B0079916A /* hudl.pdf */,
+				A4889DF91D13ADF10057C1F7 /* fblogo.pdf */,
+				A45F91841D07D96900D23E17 /* bg-dark.pdf */,
+				A47EA4391C770D4F00C3B71B /* more-blk.pdf */,
+				A4CA18371C75C34A007773DB /* more.pdf */,
+				A439DC7A1C5F101A0078EC65 /* rollcall-imin.pdf */,
+				A439DC7B1C5F101A0078EC65 /* rollcall-imout.pdf */,
+				A439DC6E1C5EEAD40078EC65 /* rollcall-idk.pdf */,
+				A439DC711C5EEAD40078EC65 /* rollcall-injured.pdf */,
+				A439DC721C5EEAD40078EC65 /* rollcall-late.pdf */,
+				A439DC731C5EEAD40078EC65 /* rollcall-vacation.pdf */,
+				A4D5222C1D5998C10003C49F /* settings.pdf */,
+				A4A6536E1C41114200F1CADD /* sched-bg.pdf */,
+				A4A653641C3F282800F1CADD /* stepperDown.pdf */,
+				A4A653651C3F282800F1CADD /* stepperUp.pdf */,
+				A489ABF91C37D82A0096780F /* stepperDown-Grn.pdf */,
+				A489ABFA1C37D82A0096780F /* stepperUp-Grn.pdf */,
+				A489ABDF1C339A540096780F /* triangle.pdf */,
+				A4E541401C12B76F0048692C /* addpic.pdf */,
+				A46476AD1C2FA20E0072A969 /* BackArrow.pdf */,
+				A489ABDD1C3378C10096780F /* BackArrow-white.pdf */,
+				A46476431C27E2CD0072A969 /* tb-chat-active.pdf */,
+				A46476441C27E2CD0072A969 /* tb-chat-inactive.pdf */,
+				A41532361C0FEDC000750BB1 /* tb-home-active.pdf */,
+				A41532371C0FEDC000750BB1 /* tb-home-inactive.pdf */,
+				A41532381C0FEDC000750BB1 /* tb-inbox-active.pdf */,
+				A41532391C0FEDC000750BB1 /* tb-inbox-inactive.pdf */,
+				A415323A1C0FEDC000750BB1 /* tb-roster-active.pdf */,
+				A415323B1C0FEDC000750BB1 /* tb-roster-inactive.pdf */,
+				A415323C1C0FEDC000750BB1 /* tb-sched-active.pdf */,
+				A415323D1C0FEDC000750BB1 /* tb-sched-inactive.pdf */,
+				A415323E1C0FEDC000750BB1 /* tb-stats-active.pdf */,
+				A415323F1C0FEDC000750BB1 /* tb-stats-inactive.pdf */,
+				688CC4C81D07BDC1008810AF /* background.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B8DC6CFF1C440EBF00269D5D /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B8DC6D001C440F0100269D5D /* StatCollection.swift */,
+				B8F5E01B1C5C27F00064BA82 /* StatTotals.swift */,
+				A466D3FF1C60124000F5296C /* TextField.swift */,
+				A4CA18101C6DDA0F007773DB /* DGRunkeeperSwitch.swift */,
+				B8CC4C131C76560F00A3C2A9 /* MapAnnotation.swift */,
+				B86E969A1CAB0103007368F8 /* StatScrollGridVC.swift */,
+			);
+			name = CustomObjects;
+			sourceTree = "<group>";
+		};
+		DA1368B8D61EF26FD4A4C5BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BC99B71D6406E30097E169 /* StoreKit.framework */,
+				B804810D1C73E39B005C86D2 /* CoreLocation.framework */,
+				7DDD2AE48A036F9ED36B5BAA /* Pods.framework */,
+				40ACD8A41387DF02D936C48A /* Pods_Squad.framework */,
+				2BCFAAB102F74B33870FE443 /* Pods_SquadTests.framework */,
+				1AF66D5CCB620D967F4C9EA9 /* Pods_SquadUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8470C4581BFC18BF005A69E5 /* Squad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8470C4811BFC18C0005A69E5 /* Build configuration list for PBXNativeTarget "Squad" */;
+			buildPhases = (
+				9FB1FD4607023B24290C6C47 /* [CP] Check Pods Manifest.lock */,
+				B5EC6E1BE3D288D4A5FAEEC7 /* [CP] Check Pods Manifest.lock */,
+				B2458D508BE8DE2D7DAFB9D7 /* [CP] Check Pods Manifest.lock */,
+				B460186166568F0F8B9E432E /* [CP] Check Pods Manifest.lock */,
+				21F4D676574F4D0530D14906 /* [CP] Check Pods Manifest.lock */,
+				F4420699F6CE5134C3A6853D /* [CP] Check Pods Manifest.lock */,
+				9B3C8ECEE7E67542B0EC23EF /* [CP] Check Pods Manifest.lock */,
+				4431FED8D7E3135E8BDE1CA1 /* [CP] Check Pods Manifest.lock */,
+				D6189234886E0161ED36649E /* [CP] Check Pods Manifest.lock */,
+				652DB7A83E44256984424FDA /* [CP] Check Pods Manifest.lock */,
+				359372CF064737CB391165FD /* [CP] Check Pods Manifest.lock */,
+				9A2E71595DA0F012CB6509BA /* [CP] Check Pods Manifest.lock */,
+				E12E0C6DC739B129EB23AAE8 /* [CP] Check Pods Manifest.lock */,
+				2EE23B8D3D53FB3D2470B47C /* [CP] Check Pods Manifest.lock */,
+				26C2280BCC353DF4FA9CA37D /* [CP] Check Pods Manifest.lock */,
+				A3B18D931DDED91F69913D17 /* [CP] Check Pods Manifest.lock */,
+				8470C4551BFC18BF005A69E5 /* Sources */,
+				8470C4561BFC18BF005A69E5 /* Frameworks */,
+				8470C4571BFC18BF005A69E5 /* Resources */,
+				F0EEC48F0A1C8AEC4D01B43F /* [CP] Embed Pods Frameworks */,
+				7800F88B079CD88A2DBDCBA1 /* [CP] Copy Pods Resources */,
+				7C662275F1671995A5FA88E0 /* 📦 Embed Pods Frameworks */,
+				D2E89011206E86B4615FEB0C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squad;
+			productName = Squad;
+			productReference = 8470C4591BFC18BF005A69E5 /* Squad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8470C46C1BFC18C0005A69E5 /* SquadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8470C4841BFC18C0005A69E5 /* Build configuration list for PBXNativeTarget "SquadTests" */;
+			buildPhases = (
+				F392EA26083CD6BC61FE8731 /* [CP] Check Pods Manifest.lock */,
+				C166BA0F81992F1B02DA2CD3 /* [CP] Check Pods Manifest.lock */,
+				20AC040D85AAD73FA9C5E2BC /* [CP] Check Pods Manifest.lock */,
+				8BE55A51F60E07ECF2A86847 /* [CP] Check Pods Manifest.lock */,
+				0326E853FA4A1041142D5719 /* [CP] Check Pods Manifest.lock */,
+				DE1523BF07A52E0E34051C46 /* [CP] Check Pods Manifest.lock */,
+				B7715E61A25E23F2350887C6 /* [CP] Check Pods Manifest.lock */,
+				3CF045F05A97F9A814B1A188 /* [CP] Check Pods Manifest.lock */,
+				69799DD445D7DAA665B6334C /* [CP] Check Pods Manifest.lock */,
+				8DC68606F23F7557CE86A64B /* [CP] Check Pods Manifest.lock */,
+				640C89E2DBD35B25691AF73E /* [CP] Check Pods Manifest.lock */,
+				631C146C864EB333AD1074B0 /* [CP] Check Pods Manifest.lock */,
+				1653BBA28327A2B43B0E9244 /* [CP] Check Pods Manifest.lock */,
+				F25EDA01D43304EEF25592BB /* [CP] Check Pods Manifest.lock */,
+				4B618D97D84D8B71763C16CA /* [CP] Check Pods Manifest.lock */,
+				4F2F37AE4B412645CA28AA4E /* [CP] Check Pods Manifest.lock */,
+				8470C4691BFC18C0005A69E5 /* Sources */,
+				8470C46A1BFC18C0005A69E5 /* Frameworks */,
+				8470C46B1BFC18C0005A69E5 /* Resources */,
+				06FE40BD07541AD26090E64F /* [CP] Embed Pods Frameworks */,
+				A9C443FA30A72672FFEB3EE1 /* [CP] Copy Pods Resources */,
+				B51607B43BCDBD0F895149BC /* 📦 Embed Pods Frameworks */,
+				03DD5D6036397D1F5912A5B3 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8470C46F1BFC18C0005A69E5 /* PBXTargetDependency */,
+			);
+			name = SquadTests;
+			productName = SquadTests;
+			productReference = 8470C46D1BFC18C0005A69E5 /* SquadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8470C4771BFC18C0005A69E5 /* SquadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8470C4871BFC18C0005A69E5 /* Build configuration list for PBXNativeTarget "SquadUITests" */;
+			buildPhases = (
+				8CA1100BA7A62841EB194313 /* [CP] Check Pods Manifest.lock */,
+				C484D17125FD6C9D49EB15C4 /* [CP] Check Pods Manifest.lock */,
+				0831390193AA55C790F08431 /* [CP] Check Pods Manifest.lock */,
+				FC100CD150BB1304D17609D2 /* [CP] Check Pods Manifest.lock */,
+				E90907D3F4341F5B320136DA /* [CP] Check Pods Manifest.lock */,
+				F259EB9342B977652C40C7D1 /* [CP] Check Pods Manifest.lock */,
+				4600743D5AE8E0B2E2F6B7F2 /* [CP] Check Pods Manifest.lock */,
+				CAB6BD197CF06CA5269D38D0 /* [CP] Check Pods Manifest.lock */,
+				0FBECAC05A603C1DB469D770 /* [CP] Check Pods Manifest.lock */,
+				85A05818DC072E8C653DCD87 /* [CP] Check Pods Manifest.lock */,
+				4A327A21F275F0EBE5805631 /* [CP] Check Pods Manifest.lock */,
+				AF2F1C9F2F2C6392871EB8B3 /* [CP] Check Pods Manifest.lock */,
+				B0A22B03B4A77946E2E36442 /* [CP] Check Pods Manifest.lock */,
+				A8F4C8FA287E27234C640446 /* [CP] Check Pods Manifest.lock */,
+				F55175B434F248F29C6CF722 /* [CP] Check Pods Manifest.lock */,
+				E097F8C184E33D345AF5D7E4 /* [CP] Check Pods Manifest.lock */,
+				8470C4741BFC18C0005A69E5 /* Sources */,
+				8470C4751BFC18C0005A69E5 /* Frameworks */,
+				8470C4761BFC18C0005A69E5 /* Resources */,
+				D25E9104E89016FA2B5D7987 /* [CP] Copy Pods Resources */,
+				363EF2A91A0DDF962555BF18 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8470C47A1BFC18C0005A69E5 /* PBXTargetDependency */,
+			);
+			name = SquadUITests;
+			productName = SquadUITests;
+			productReference = 8470C4781BFC18C0005A69E5 /* SquadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8470C4511BFC18BF005A69E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = squad;
+				TargetAttributes = {
+					8470C4581BFC18BF005A69E5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5AYH46PF66;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					8470C46C1BFC18C0005A69E5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 8470C4581BFC18BF005A69E5;
+					};
+					8470C4771BFC18C0005A69E5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 8470C4581BFC18BF005A69E5;
+					};
+				};
+			};
+			buildConfigurationList = 8470C4541BFC18BF005A69E5 /* Build configuration list for PBXProject "Squad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8470C4501BFC18BF005A69E5;
+			productRefGroup = 8470C45A1BFC18BF005A69E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8470C4581BFC18BF005A69E5 /* Squad */,
+				8470C46C1BFC18C0005A69E5 /* SquadTests */,
+				8470C4771BFC18C0005A69E5 /* SquadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8470C4571BFC18BF005A69E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41FD5741D8F4EA700B75540 /* settings-sliders.pdf in Resources */,
+				A4F8BF511D45EFDD00A8E6FF /* logo-gold.pdf in Resources */,
+				A41532411C0FEDC000750BB1 /* tb-home-inactive.pdf in Resources */,
+				A49423DD1D91FD6500B00813 /* s-icon-blk.pdf in Resources */,
+				A4F8BF551D470E6700A8E6FF /* FuturaCondensedItalic.ttf in Resources */,
+				A4D13D831D84816700E7167E /* blur-huddle.pdf in Resources */,
+				A489ABFC1C37D82A0096780F /* stepperUp-Grn.pdf in Resources */,
+				A40E20591C97A7480006EF1C /* DharmaGothicE_Light_R.otf in Resources */,
+				A4B47EDE1D813EF800101790 /* SEIZETHEGAME.pdf in Resources */,
+				A40E20581C97A7480006EF1C /* DharmaGothicE_Light_I.otf in Resources */,
+				682DFB581D845A5C008F0674 /* Accounts in Resources */,
+				A46476451C27E2CD0072A969 /* tb-chat-active.pdf in Resources */,
+				A41532421C0FEDC000750BB1 /* tb-inbox-active.pdf in Resources */,
+				A402F6601C49B444000D9E0D /* avenir-next-thin.ttf in Resources */,
+				A41532471C0FEDC000750BB1 /* tb-sched-inactive.pdf in Resources */,
+				A489ABE01C339A540096780F /* triangle.pdf in Resources */,
+				A41FD5681D8D1DD900B75540 /* Diamante-DemiBold.otf in Resources */,
+				A40E205A1C97A7480006EF1C /* DharmaGothicE_Regular_I.otf in Resources */,
+				A41532481C0FEDC000750BB1 /* tb-stats-active.pdf in Resources */,
+				A4B47EDA1D8136DB00101790 /* default-squad.pdf in Resources */,
+				A4D5222D1D5998C10003C49F /* settings.pdf in Resources */,
+				A407BA621D729EE300A6A5AA /* logo-dark.pdf in Resources */,
+				A45F91851D07D96900D23E17 /* bg-dark.pdf in Resources */,
+				A414A3DF1D4F1AF0007E157A /* ss-baseball.pdf in Resources */,
+				B87F50E51C29F73300156B36 /* TODO in Resources */,
+				A41532401C0FEDC000750BB1 /* tb-home-active.pdf in Resources */,
+				A4E541411C12B76F0048692C /* addpic.pdf in Resources */,
+				A41532451C0FEDC000750BB1 /* tb-roster-inactive.pdf in Resources */,
+				A41532461C0FEDC000750BB1 /* tb-sched-active.pdf in Resources */,
+				A41FD5701D8E68FD00B75540 /* switch-on.pdf in Resources */,
+				A4D13D851D848A8100E7167E /* camera_btn.pdf in Resources */,
+				A4A653661C3F282800F1CADD /* stepperDown.pdf in Resources */,
+				A407BA661D74074D00A6A5AA /* sznpass.pdf in Resources */,
+				A4F3EC0E1D87AFA800F79CAE /* getsquadbucks.pdf in Resources */,
+				A4CA18381C75C34A007773DB /* more.pdf in Resources */,
+				A4F3EC0A1D86FC9000F79CAE /* intro.mp4 in Resources */,
+				A46476AE1C2FA20E0072A969 /* BackArrow.pdf in Resources */,
+				A414A3E41D4F1AF0007E157A /* ss-soccer.pdf in Resources */,
+				A49423DE1D91FD6500B00813 /* s-icon-white.pdf in Resources */,
+				A41532431C0FEDC000750BB1 /* tb-inbox-inactive.pdf in Resources */,
+				A4F8BF531D470CEB00A8E6FF /* logo-icon.pdf in Resources */,
+				A41A562B1C672EA30000904E /* Trade Gothic LT Bold Condensed No. 20.ttf in Resources */,
+				A4D013E01D61166A002920AF /* joinsquad.pdf in Resources */,
+				A439DC741C5EEAD40078EC65 /* rollcall-idk.pdf in Resources */,
+				A40AACBC1C5C11AE005858EF /* DS-DIGI.TTF in Resources */,
+				A40E20541C94045A0006EF1C /* DharmaGothicE_Heavy_I.otf in Resources */,
+				682DFB561D845333008F0674 /* GoogleService-Info.plist in Resources */,
+				A4F3EC101D87B42600F79CAE /* inviteplayers.pdf in Resources */,
+				A414A3E21D4F1AF0007E157A /* ss-hockey.pdf in Resources */,
+				A414A3E11D4F1AF0007E157A /* ss-football.pdf in Resources */,
+				A4FD335A1D18E22B0079916A /* hudl.pdf in Resources */,
+				A439DC791C5EEAD40078EC65 /* rollcall-vacation.pdf in Resources */,
+				A439DC781C5EEAD40078EC65 /* rollcall-late.pdf in Resources */,
+				A4251AD71D77EE1F0015EA26 /* default-team.pdf in Resources */,
+				A402F6621C49B44F000D9E0D /* avenir-next-regular.ttf in Resources */,
+				A47F29D31D505AB0005CEE92 /* triangle-right.pdf in Resources */,
+				A41FD56A1D8DDE4B00B75540 /* default-team-wide.pdf in Resources */,
+				688CC4C91D07BDC1008810AF /* background.jpeg in Resources */,
+				A4D13D871D84CB4900E7167E /* PillGothic300mg-Regular.ttf in Resources */,
+				A439DC7C1C5F101A0078EC65 /* rollcall-imin.pdf in Resources */,
+				A4D13D891D84CB5F00E7167E /* PillGothic300mg-BoldObq.ttf in Resources */,
+				A49423E01D920F0900B00813 /* splash.pdf in Resources */,
+				A414A3E01D4F1AF0007E157A /* ss-basketball.pdf in Resources */,
+				A4D013DD1D611648002920AF /* createsquad.pdf in Resources */,
+				A407BA641D729FB300A6A5AA /* logo-white.pdf in Resources */,
+				A455560A1D88F348007AB5D3 /* 1.pdf in Resources */,
+				A439DC7D1C5F101A0078EC65 /* rollcall-imout.pdf in Resources */,
+				A414A3E31D4F1AF0007E157A /* ss-lacrosse.pdf in Resources */,
+				A4DBC8791D49D95E00245984 /* squad-loading.pdf in Resources */,
+				A489ABFB1C37D82A0096780F /* stepperDown-Grn.pdf in Resources */,
+				8470C4671BFC18C0005A69E5 /* LaunchScreen.storyboard in Resources */,
+				A47F29D51D506AD8005CEE92 /* Bars.pdf in Resources */,
+				A489ABDE1C3378C10096780F /* BackArrow-white.pdf in Resources */,
+				A41FD56F1D8E68FD00B75540 /* switch-off.pdf in Resources */,
+				A433B35A1D6E816A008B3295 /* Montserrat-Regular.otf in Resources */,
+				8470C4641BFC18C0005A69E5 /* Assets.xcassets in Resources */,
+				A45F91871D07DB5D00D23E17 /* HudsonNY.otf in Resources */,
+				8470C4621BFC18BF005A69E5 /* Main.storyboard in Resources */,
+				A4FD335C1D18E7180079916A /* close.pdf in Resources */,
+				A41532441C0FEDC000750BB1 /* tb-roster-active.pdf in Resources */,
+				A4A6536F1C41114200F1CADD /* sched-bg.pdf in Resources */,
+				A46B26371CDEFDDC00D74800 /* Futura LT Extra Bold.ttf in Resources */,
+				A41FD5721D8F1A1500B75540 /* default-scheduleteam.pdf in Resources */,
+				A4889DFA1D13ADF10057C1F7 /* fblogo.pdf in Resources */,
+				A47F29D21D505AB0005CEE92 /* triangle-left.pdf in Resources */,
+				A439DC771C5EEAD40078EC65 /* rollcall-injured.pdf in Resources */,
+				A407BA601D729E8100A6A5AA /* bg-white.pdf in Resources */,
+				A47EA43A1C770D4F00C3B71B /* more-blk.pdf in Resources */,
+				A46476461C27E2CD0072A969 /* tb-chat-inactive.pdf in Resources */,
+				A4A653671C3F282800F1CADD /* stepperUp.pdf in Resources */,
+				A41532491C0FEDC000750BB1 /* tb-stats-inactive.pdf in Resources */,
+				A41FD5761D8F531B00B75540 /* sznpassbg.pdf in Resources */,
+				A40E20531C94045A0006EF1C /* DharmaGothicE_Bold_I.otf in Resources */,
+				A4D13D911D863C3B00E7167E /* seize.pdf in Resources */,
+				A40B18381D1A349300968C13 /* default.pdf in Resources */,
+				A433B35B1D6E816A008B3295 /* Montserrat-SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470C46B1BFC18C0005A69E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470C4761BFC18C0005A69E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0326E853FA4A1041142D5719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		03DD5D6036397D1F5912A5B3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquadTests/Pods-SquadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06FE40BD07541AD26090E64F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquadTests/Pods-SquadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0831390193AA55C790F08431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0FBECAC05A603C1DB469D770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1653BBA28327A2B43B0E9244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20AC040D85AAD73FA9C5E2BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21F4D676574F4D0530D14906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26C2280BCC353DF4FA9CA37D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EE23B8D3D53FB3D2470B47C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		359372CF064737CB391165FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		363EF2A91A0DDF962555BF18 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquadUITests/Pods-SquadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF045F05A97F9A814B1A188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4431FED8D7E3135E8BDE1CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4600743D5AE8E0B2E2F6B7F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A327A21F275F0EBE5805631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B618D97D84D8B71763C16CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F2F37AE4B412645CA28AA4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		631C146C864EB333AD1074B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		640C89E2DBD35B25691AF73E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		652DB7A83E44256984424FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69799DD445D7DAA665B6334C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7800F88B079CD88A2DBDCBA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squad/Pods-Squad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C662275F1671995A5FA88E0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squad/Pods-Squad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A05818DC072E8C653DCD87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE55A51F60E07ECF2A86847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA1100BA7A62841EB194313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC68606F23F7557CE86A64B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A2E71595DA0F012CB6509BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3C8ECEE7E67542B0EC23EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB1FD4607023B24290C6C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B18D931DDED91F69913D17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F4C8FA287E27234C640446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C443FA30A72672FFEB3EE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquadTests/Pods-SquadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2F1C9F2F2C6392871EB8B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A22B03B4A77946E2E36442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2458D508BE8DE2D7DAFB9D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B460186166568F0F8B9E432E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B51607B43BCDBD0F895149BC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquadTests/Pods-SquadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5EC6E1BE3D288D4A5FAEEC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7715E61A25E23F2350887C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C166BA0F81992F1B02DA2CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C484D17125FD6C9D49EB15C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB6BD197CF06CA5269D38D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D25E9104E89016FA2B5D7987 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquadUITests/Pods-SquadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E89011206E86B4615FEB0C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squad/Pods-Squad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6189234886E0161ED36649E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE1523BF07A52E0E34051C46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E097F8C184E33D345AF5D7E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E12E0C6DC739B129EB23AAE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E90907D3F4341F5B320136DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0EEC48F0A1C8AEC4D01B43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squad/Pods-Squad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F259EB9342B977652C40C7D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F25EDA01D43304EEF25592BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F392EA26083CD6BC61FE8731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4420699F6CE5134C3A6853D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F55175B434F248F29C6CF722 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC100CD150BB1304D17609D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8470C4551BFC18BF005A69E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8183A1B1C1A45100097031E /* HomeVC.swift in Sources */,
+				A46476AC1C2F8FBA0072A969 /* ProfileVC.swift in Sources */,
+				68A919C91D387363008F734B /* ManageAdminsList.swift in Sources */,
+				6866E6BD1D6D2F18006458D4 /* ChangePasswordVC.swift in Sources */,
+				A467DA871BFDB2B600467DF2 /* SignUpViewController.swift in Sources */,
+				A41FD5781D8F5D5700B75540 /* HomeTVCell1.swift in Sources */,
+				683802D11D52DDCE0022CB77 /* CareerVC.swift in Sources */,
+				B87F50E91C32EE1E00156B36 /* StatCollectionCell.swift in Sources */,
+				680A0E3A1D65573E00F996B6 /* TokenProductListCell.swift in Sources */,
+				B82877F01CDE43D200F53D09 /* EditProfileVC.swift in Sources */,
+				680A0E381D6555A300F996B6 /* TokenProductList.swift in Sources */,
+				A4CA18111C6DDA0F007773DB /* DGRunkeeperSwitch.swift in Sources */,
+				686D7F3A1D31576D007E7C95 /* NewAnnouncementVC.swift in Sources */,
+				A4A653051C3E740800F1CADD /* RosterCollectionCell.swift in Sources */,
+				B8F5E0131C5AAC7D0064BA82 /* SeasonTotalsTableViewCell.swift in Sources */,
+				B8F5E01C1C5C27F00064BA82 /* StatTotals.swift in Sources */,
+				A47725C61C45CF7E00ACC507 /* GameStatTVC.swift in Sources */,
+				A439DC6D1C5ED3F30078EC65 /* RollCallTVCell.swift in Sources */,
+				68A919C71D3872FC008F734B /* ManageAdminsVC.swift in Sources */,
+				B809E4A41BFE990800B9F31F /* MainVC.swift in Sources */,
+				B809E4A61BFE9FDA00B9F31F /* SquadCore.swift in Sources */,
+				6813911E1D6D37CB0063A4E1 /* ForgotPasswordVC.swift in Sources */,
+				B8F5E01A1C5C207A0064BA82 /* SeasonLeadersTVC.swift in Sources */,
+				68B15DD21D41AF3600F38BE4 /* OnBoardingVC.swift in Sources */,
+				A46476A81C2A31260072A969 /* FXBlurView.m in Sources */,
+				686D7F3C1D35D5B9007E7C95 /* SettingsTVC.swift in Sources */,
+				A46476481C2925080072A969 /* GameStatsVC.swift in Sources */,
+				B86E969B1CAB0103007368F8 /* StatScrollGridVC.swift in Sources */,
+				B81E20281C090A51008BBA7A /* JoinSquadVC.swift in Sources */,
+				6876A0331D68B24000A64111 /* PremiumPurchaseListCell.swift in Sources */,
+				A466D4001C60124000F5296C /* TextField.swift in Sources */,
+				A4E184351C57836300D6B2CF /* CreateSkwadTableViewController.swift in Sources */,
+				B8DC6D011C440F0100269D5D /* StatCollection.swift in Sources */,
+				68BC99B21D61614F0097E169 /* TeamWalletVC.swift in Sources */,
+				687106C71D4AF26F00554DB0 /* StartNewSeasonVC.swift in Sources */,
+				68BC99B61D63F3080097E169 /* BuyTokenVC.swift in Sources */,
+				B87F50EB1C32EE7A00156B36 /* PlayerStatVC.swift in Sources */,
+				A4CA182C1C71931E007773DB /* FoldScheduleVC.swift in Sources */,
+				B8A388CC1D0902E00022DD70 /* AddDummyVC.swift in Sources */,
+				A4F5EEB11C7F89C6000537ED /* ProfileInfoTVCell.swift in Sources */,
+				683B7F9F1D5D6D69003383BE /* ChatContainerVC.swift in Sources */,
+				68BC99B41D6162050097E169 /* WalletActivityList.swift in Sources */,
+				68A919CF1D3C7517008F734B /* TeamProfileVC.swift in Sources */,
+				A45241741C5838FF00863226 /* SelectSportTVC.swift in Sources */,
+				A42E414B1C3E44E500E7E88D /* SelectSportCell.swift in Sources */,
+				B8CC4C141C76560F00A3C2A9 /* MapAnnotation.swift in Sources */,
+				6811DFBB1D485A1400FE622A /* MapHolderVC.swift in Sources */,
+				B8E3ADD81C4EDA9C00FE8FB5 /* SeasonManagerVC.swift in Sources */,
+				686D7F381D3152F9007E7C95 /* AnnouncementCVCell.swift in Sources */,
+				68FE1B431D542A6F0054A4FD /* CareerLeadersTVC.swift in Sources */,
+				68B5BFE71D3F11CE000E997B /* ManageRosterVC.swift in Sources */,
+				683B7FA21D5D6EE9003383BE /* PremiumRequiredVC.swift in Sources */,
+				B87F50A71C285FD400156B36 /* ChatTableViewCell.swift in Sources */,
+				A41FD56C1D8E3E0900B75540 /* SettingsViewController.swift in Sources */,
+				B86AEBF61C7CF78F00A8B9E7 /* GameStatPlayerStatsTableViewController.swift in Sources */,
+				B80481101C73EB41005C86D2 /* LocationPickerNC.swift in Sources */,
+				A489005C1C4259100090595E /* RollCallVC.swift in Sources */,
+				683802CE1D52D11A0022CB77 /* SSCell.swift in Sources */,
+				A4F5EEAF1C7F841A000537ED /* ProfileStatsCVCell.swift in Sources */,
+				B81E20261C08FDEF008BBA7A /* SquadTableViewCell.swift in Sources */,
+				B8CC4C121C7651DE00A3C2A9 /* LocationPlotterVC.swift in Sources */,
+				B82659611C6B9AB0005F4EB3 /* SeasonAveragesTVC.swift in Sources */,
+				B8183A161C17A0DE0097031E /* RosterVC.swift in Sources */,
+				B84406B11C61739B00D921C4 /* SeasonTotalsTVC.swift in Sources */,
+				B82877EA1CD4FD5600F53D09 /* UIViewController+Extras.swift in Sources */,
+				68A71ECE1D314FF200D75F99 /* AnnouncementsCVC.swift in Sources */,
+				8470C45D1BFC18BF005A69E5 /* AppDelegate.swift in Sources */,
+				68B5BFE91D3F1301000E997B /* ManageRosterList.swift in Sources */,
+				A4B2F5891C5B421500E490C5 /* SeasonStatMenuCollectionCell.swift in Sources */,
+				A4F5EEAD1C7EBE4A000537ED /* GameStatsSummaryTableViewCell.swift in Sources */,
+				A4D5222F1D599ABB0003C49F /* SquadHomeViewController.swift in Sources */,
+				B84329761C641CF7008089A7 /* SeasonTotalPlayerDataCollectionViewCell.swift in Sources */,
+				B805F3F71C51871200F8997B /* SeasonSelectorDelegate.swift in Sources */,
+				B8EAF9871CA315C000D1C7DD /* ChatBubbleVC.swift in Sources */,
+				A4F5EEAB1C7E8AE8000537ED /* GameStatsSummaryTVC.swift in Sources */,
+				A47725C81C45FA6F00ACC507 /* SznVC.swift in Sources */,
+				B82877E81CD4FD1E00F53D09 /* UIView+Extras.swift in Sources */,
+				A4AD12551CB4BBF10024EE82 /* OnboardViewController.swift in Sources */,
+				B81013A51C2366AC003238EB /* ChatVC.swift in Sources */,
+				68EEC7991D68ADA30040D1A2 /* PremiumPurchaseList.swift in Sources */,
+				B8183A181C17AB290097031E /* RosterTableViewCell.swift in Sources */,
+				A4CA182E1C71932F007773DB /* DemoCell.swift in Sources */,
+				A439DC6B1C5C4FA20078EC65 /* SeasonLeadersTVCell.swift in Sources */,
+				A46475CD1C1ACCCA0072A969 /* SquadCollectionViewCell.swift in Sources */,
+				B80481181C8FA3CD005C86D2 /* ChatObject.swift in Sources */,
+				B8183A1F1C1A495D0097031E /* ScheduleCell.swift in Sources */,
+				A4E5413F1C12A3B50048692C /* CreateProfileVC.swift in Sources */,
+				B86AEBF41C7CF74B00A8B9E7 /* GameStatPlayerStatsTableViewCell.swift in Sources */,
+				A47725C41C4398F600ACC507 /* CreateEventVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470C4691BFC18C0005A69E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470C4721BFC18C0005A69E5 /* SquadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470C4741BFC18C0005A69E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8470C47D1BFC18C0005A69E5 /* SquadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8470C46F1BFC18C0005A69E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8470C4581BFC18BF005A69E5 /* Squad */;
+			targetProxy = 8470C46E1BFC18C0005A69E5 /* PBXContainerItemProxy */;
+		};
+		8470C47A1BFC18C0005A69E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8470C4581BFC18BF005A69E5 /* Squad */;
+			targetProxy = 8470C4791BFC18C0005A69E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8470C4601BFC18BF005A69E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8470C4611BFC18BF005A69E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8470C4651BFC18C0005A69E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8470C4661BFC18C0005A69E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8470C47F1BFC18C0005A69E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Skwad LLC (5AYH46PF66)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d6753cc5-03fb-41ec-b7a5-8f891d57afa5";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8470C4801BFC18C0005A69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Skwad LLC (5AYH46PF66)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d6753cc5-03fb-41ec-b7a5-8f891d57afa5";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8470C4821BFC18C0005A69E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7832269844152DB520405FF /* Pods-Squad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Squad/Squad.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Squad/Info.plist;
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skwad.Skwad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Squad/Squad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8470C4831BFC18C0005A69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0E01833CC9AF62298136DA /* Pods-Squad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Squad/Squad.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Squad/Info.plist;
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skwad.Skwad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Squad/Squad-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8470C4851BFC18C0005A69E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FDFBF443D98AFF2264FD55 /* Pods-SquadTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squad.SquadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squad.app/Squad";
+			};
+			name = Debug;
+		};
+		8470C4861BFC18C0005A69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF13AEA7543D6563575F862 /* Pods-SquadTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squad.SquadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squad.app/Squad";
+			};
+			name = Release;
+		};
+		8470C4881BFC18C0005A69E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BADF6A73824A01AA3EB9BB /* Pods-SquadUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SquadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squad.SquadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Squad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8470C4891BFC18C0005A69E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF82B02807CA71C5DF51B69 /* Pods-SquadUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SquadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squad.SquadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Squad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8470C4541BFC18BF005A69E5 /* Build configuration list for PBXProject "Squad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470C47F1BFC18C0005A69E5 /* Debug */,
+				8470C4801BFC18C0005A69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8470C4811BFC18C0005A69E5 /* Build configuration list for PBXNativeTarget "Squad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470C4821BFC18C0005A69E5 /* Debug */,
+				8470C4831BFC18C0005A69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8470C4841BFC18C0005A69E5 /* Build configuration list for PBXNativeTarget "SquadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470C4851BFC18C0005A69E5 /* Debug */,
+				8470C4861BFC18C0005A69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8470C4871BFC18C0005A69E5 /* Build configuration list for PBXNativeTarget "SquadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8470C4881BFC18C0005A69E5 /* Debug */,
+				8470C4891BFC18C0005A69E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8470C4511BFC18BF005A69E5 /* Project object */;
+}

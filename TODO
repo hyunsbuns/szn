@@ -1,0 +1,178 @@
+Handle Roll Call Push from within app - currently Roll Call shows up automatically if you are already in the app
+
+http://stackoverflow.com/questions/37333177/cloud-messaging-handing-terminate-app
+
+{"to": "eoVmNdIIInQ:APA91bE_sQw0Zv2ACmA5hfMKkaNjRh6YFeTZ4f3QL2X8X-KEK96Op-45Lxk04X2IXO7ZOECm2Bx_oE3QHt3z0QiUzi5t4MrRMkSb1_DGIQIxEPIXscZlklhkRvEm5_3S666HUGmkBILb","priority": "high",
+"content_available": true,
+"notification": {
+"sound": "default",
+"badge": "1",
+"title": "Push Title",
+"body": "Push Body"
+}
+}
+
+Authorization: key=AIzaSyCf-LFMnpFnyy8sNeZtZjua5bT3sJGZBdk
+
+
+Redo PLaterStatVC to work independently of the totals used to calculate stats on the szn and only move stat records into the totals once they are flagged for inclusion.
+
+ResetPassword stuff....
+
+//disabled bitcode in build settings
+
+GameStatsSummaryTVC -> new ScrollGrid stuff
+
+StatScrollGridVC - why add 40 to getHeight?  It works, but huh?
+
+
+Fix stat total for GameStatVC and the stats page for the new way of doing stats for various sports
+
+In RollCallVC toggle the button on when there is already a status found
+In LocationPicker Pod, set searchBar to .Default
+
+Fix HKKScrollGrid click to not show white...we currently have selection disabled
+
+Fix Layout Problem on SZNVC - the top level stack view within the scroll view is not needed and is impeding on the layout.  right now we have a large number in there to accomodate testing.
+
+For HKKVC -
+    - how do we reload the scrollview to update the width of stuff?
+    - how do we space the headers since they work differently?
+
+Do we hit parse when pressing back on the PlayerStatsVC screen even if the did_attend is off or if changes were not made?
+
+Make the team totals show up with correct values
+
+
+
+Player stats in an event need a DID NOT PARTICIPATE switch for the sake of game averages. The switch will be defaulted to ON, which will set a value of 1 for a GAMES PLAYED stat and 0 if an admin turns the switch to off.
+
+SeasonVC should be divided into SEASON and CAREER, where each will show leaders of each stat, totals and averages.
+
+Events need a boolean for game or NOT A GAME for the sake of what stats are included in sums
+Actually make the 3 screens that are sometimes readonly, readonly now that we have the seasons toggled correctly
+Distinguish between what an admin can do and what a normal user can do
+
+Deal with Roll Calls
+
+BeforeRelease
+-make sure a phone can be reset after a user had been auto logged in and the app works after we enable autologin
+
+mainvc
+-joined skwads arent showing, only created - NEED TO FIX
+
+SeasonManagerVC TODO
+-make adding a season only doable by a manager
+-have that season impact the roster, stats, and schedule screens
+
+Roster TODO
+-rosters now work differently and need to be reconnected to the Roster table in parse
+
+New Squad TODO
+-creating a new squad should ask for the name of the initial season so there is guaranteed to be at least one
+
+
+Calculate Stats for season across all events
+
+DIGITS login to Parse
+
+chatvc
+
+-adjust chat entry view constraints
+
+
+
+schedulevc
+
+-adding map view and search in create event
+
+STATS
+
+SOCCER, HOCKEY, FIELD HOCKEY
+-score
+-opponent score
+-goals
+-assists
+-saves
+-goals allowed
+
+FOOTBALL, FLAG FOOTBALL
+-score
+-opponent score
+-passing touchdowns
+-interceptions thrown
+-rushing touchdowns
+-receiving touchdowns
+-receptions
+-interceptions
+-sacks
+-tackles
+
+
+BASKETBALL
+-score
+-opponent score
+-field goals made
+-field goal attempts
+-field goal %
+-2pt fg made
+-2pt fg attempts
+-2pt fg %
+-3pt fg made
+-3pt fg attempts
+-3pt fg %
+-free throws made
+-free throws attempted
+-free throw %
+-points
+-assists
+-offensive rebounds
+-defensive rebounds
+-total rebounds
+-turnovers
+-blocks
+-steals
+-fouls
+-player efficiency
+
+BASEBALL, SOFTBALL
+-score
+-opponent score
+-hits
+-at bats
+-home runs
+-singles
+-doubles
+-triples
+-walks
+-hbp
+-rbis
+-runs
+-stolen bases
+-batting avg
+-on base %
+-slugging %
+
+-innings pitched
+-hits
+-runs
+-earned runs
+-walks
+-strikeouts
+-wins
+-losses
+-saves
+-era
+
+
+
+
+BUGS
+
+App crashes with invalid session token when I run app on simulator
+
+
+
+
+
+
